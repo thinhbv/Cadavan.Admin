@@ -1,0 +1,186 @@
+D:\#Work\CDYT\Code\Libs.Security\obj\Debug\ResolveAssemblyReference.cache
+D:\#Work\CDYT\Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\#Work\CDYT\Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\#Work\CDYT\Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\#Work\CDYT\Code\Libs.Security\bin\Debug\MySql.Data.dll
+D:\#Work\CDYT\Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\#Work\CDYT\Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\#Work\CDYT\Code\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\#Work\VTK.CMS\Libs.Security\bin\Debug\Libs.Security.dll
+D:\#Work\VTK.CMS\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\#Work\VTK.CMS\Libs.Security\bin\Debug\Libs.Db.dll
+D:\#Work\VTK.CMS\Libs.Security\bin\Debug\MySql.Data.dll
+D:\#Work\VTK.CMS\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\#Work\VTK.CMS\Libs.Security\obj\Debug\ResolveAssemblyReference.cache
+D:\#Work\VTK.CMS\Libs.Security\obj\Debug\Libs.Security.dll
+D:\#Work\VTK.CMS\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\#Work\CMS\Libs.Security\bin\Debug\Libs.Security.dll
+D:\#Work\CMS\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\#Work\CMS\Libs.Security\bin\Debug\Libs.Db.dll
+D:\#Work\CMS\Libs.Security\bin\Debug\MySql.Data.dll
+D:\#Work\CMS\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\#Work\CMS\Libs.Security\obj\Debug\ResolveAssemblyReference.cache
+D:\#Work\CMS\Libs.Security\obj\Debug\Libs.Security.dll
+D:\#Work\CMS\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\CMS\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\CMS\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\CMS\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\CMS\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\CMS\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\CMS\Libs.Security\obj\Debug\ResolveAssemblyReference.cache
+D:\HaLV\CMS\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\CMS\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\AIC\Projects\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.dll
+D:\AIC\Projects\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\AIC\Projects\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.dll
+D:\AIC\Projects\cms.aicvn.com\Libs.Security\bin\Debug\MySql.Data.dll
+D:\AIC\Projects\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\AIC\Projects\cms.aicvn.com\Libs.Security\obj\Debug\ResolveAssemblyReference.cache
+D:\AIC\Projects\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.dll
+D:\AIC\Projects\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.dll
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.dll
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Security\bin\Debug\MySql.Data.dll
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Security\obj\Debug\ResolveAssemblyReference.cache
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.dll
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Security\obj\Debug\ResolveAssemblyReference.cache
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Security\obj\Debug\ResolveAssemblyReference.cache
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\Projects\cbgf.org\Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\Projects\cbgf.org\Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\Projects\cbgf.org\Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\cbgf.org\Code\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\cbgf.org\Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\cbgf.org\Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\cbgf.org\Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\Projects\cbgf.org\Code\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\Projects\tq company\Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\Projects\tq company\Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\Projects\tq company\Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\tq company\Code\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\tq company\Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\tq company\Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\tq company\Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\Projects\tq company\Code\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Security\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\2016\vietchess.vn\Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\2016\vietchess.vn\Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\2016\vietchess.vn\Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\2016\vietchess.vn\Code\Libs.Security\bin\Debug\MySql.Data.dll
+D:\2016\vietchess.vn\Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\2016\vietchess.vn\Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\2016\vietchess.vn\Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\2016\vietchess.vn\Code\Libs.Security\obj\Debug\Libs.Security.pdb
+C:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Security.dll
+C:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Security.pdb
+C:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Db.dll
+C:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Db.pdb
+C:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+C:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.dll
+C:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Security.dll
+D:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Db.dll
+D:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.dll
+D:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\bin\Debug\Libs.Security.dll
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\bin\Debug\Libs.Db.dll
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\obj\Debug\Libs.Security.dll
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\bin\Debug\Libs.Security.dll
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\bin\Debug\Libs.Db.dll
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\obj\Debug\Libs.Security.dll
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\02. Projects\02. Cadavan\04. Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\02. Projects\02. Cadavan\04. Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\02. Projects\02. Cadavan\04. Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\02. Projects\02. Cadavan\04. Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\02. Projects\02. Cadavan\04. Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\02. Projects\02. Cadavan\04. Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\02. Projects\02. Cadavan\04. Code\Libs.Security\obj\Debug\Libs.Security.pdb
+E:\Cadavan\Admin\04. Code\Libs.Security\bin\Debug\Libs.Security.dll
+E:\Cadavan\Admin\04. Code\Libs.Security\bin\Debug\Libs.Security.pdb
+E:\Cadavan\Admin\04. Code\Libs.Security\bin\Debug\Libs.Db.dll
+E:\Cadavan\Admin\04. Code\Libs.Security\bin\Debug\Libs.Db.pdb
+E:\Cadavan\Admin\04. Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+E:\Cadavan\Admin\04. Code\Libs.Security\obj\Debug\Libs.Security.dll
+E:\Cadavan\Admin\04. Code\Libs.Security\obj\Debug\Libs.Security.pdb

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BusAdd" xml:space="preserve">
+    <value>booking.bus.add.html</value>
+  </data>
+  <data name="BusEdit" xml:space="preserve">
+    <value>booking.bus.edit.html</value>
+  </data>
+  <data name="BusList" xml:space="preserve">
+    <value>booking.bus.list.html</value>
+  </data>
+  <data name="BusScheduleAdd" xml:space="preserve">
+    <value>booking.busschedule.add.html</value>
+  </data>
+  <data name="BusScheduleEdit" xml:space="preserve">
+    <value>booking.busschedule.edit.html</value>
+  </data>
+  <data name="BusScheduleList" xml:space="preserve">
+    <value>booking.busschedule.list.html</value>
+  </data>
+  <data name="BusTimeAdd" xml:space="preserve">
+    <value>booking.bustime.add.html</value>
+  </data>
+  <data name="BusTimeEdit" xml:space="preserve">
+    <value>booking.bustime.edit.html</value>
+  </data>
+  <data name="BusTimeList" xml:space="preserve">
+    <value>booking.bustime.list.html</value>
+  </data>
+  <data name="BusTypeAdd" xml:space="preserve">
+    <value>booking.bustype.add.html</value>
+  </data>
+  <data name="BusTypeEdit" xml:space="preserve">
+    <value>booking.bustype.edit.html</value>
+  </data>
+  <data name="BusTypeList" xml:space="preserve">
+    <value>booking.bustype.list.html</value>
+  </data>
+  <data name="DriversAdd" xml:space="preserve">
+    <value>booking.drivers.add.html</value>
+  </data>
+  <data name="DriversEdit" xml:space="preserve">
+    <value>booking.drivers.edit.html</value>
+  </data>
+  <data name="DriversList" xml:space="preserve">
+    <value>booking.drivers.list.html</value>
+  </data>
+  <data name="Error404" xml:space="preserve">
+    <value>error404.html</value>
+  </data>
+  <data name="Error500" xml:space="preserve">
+    <value>error500.html</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>login.html</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>logout.html</value>
+  </data>
+  <data name="PermissionsAdd" xml:space="preserve">
+    <value>permissions.add.html</value>
+  </data>
+  <data name="PermissionsEdit" xml:space="preserve">
+    <value>permissions.edit.html</value>
+  </data>
+  <data name="PermissionsList" xml:space="preserve">
+    <value>permissions.list.html</value>
+  </data>
+  <data name="RolesAdd" xml:space="preserve">
+    <value>roles.add.html</value>
+  </data>
+  <data name="RolesEdit" xml:space="preserve">
+    <value>roles.edit.html</value>
+  </data>
+  <data name="RolesList" xml:space="preserve">
+    <value>roles.list.html</value>
+  </data>
+  <data name="RoutesAdd" xml:space="preserve">
+    <value>booking.routes.add.html</value>
+  </data>
+  <data name="RoutesEdit" xml:space="preserve">
+    <value>booking.routes.edit.html</value>
+  </data>
+  <data name="RoutesList" xml:space="preserve">
+    <value>booking.routes.list.html</value>
+  </data>
+  <data name="RouteStationList" xml:space="preserve">
+    <value>routestation.list.html</value>
+  </data>
+  <data name="StationsAdd" xml:space="preserve">
+    <value>booking.stations.add.html</value>
+  </data>
+  <data name="StationsEdit" xml:space="preserve">
+    <value>booking.stations.edit.html</value>
+  </data>
+  <data name="StationsList" xml:space="preserve">
+    <value>booking.stations.list.html</value>
+  </data>
+  <data name="UsersAdd" xml:space="preserve">
+    <value>users.add.html</value>
+  </data>
+  <data name="UsersChangePassword" xml:space="preserve">
+    <value>users.changepassword.html</value>
+  </data>
+  <data name="UsersEdit" xml:space="preserve">
+    <value>users.edit.html</value>
+  </data>
+  <data name="UsersList" xml:space="preserve">
+    <value>users.list.html</value>
+  </data>
+  <data name="UsersResetPassword" xml:space="preserve">
+    <value>users.resetpassword.html</value>
+  </data>
+  <data name="RouteStationAdd" xml:space="preserve">
+    <value>routestation.add.html</value>
+  </data>
+  <data name="RouteStationEdit" xml:space="preserve">
+    <value>routestation.edit.html</value>
+  </data>
+  <data name="RolesPermission" xml:space="preserve">
+    <value>roles.permission.html</value>
+  </data>
+  <data name="CategoriesAdd" xml:space="preserve">
+    <value>news.categories.add.html</value>
+  </data>
+  <data name="CategoriesEdit" xml:space="preserve">
+    <value>news.categories.edit.html</value>
+  </data>
+  <data name="CategoriesList" xml:space="preserve">
+    <value>news.categories.list.html</value>
+  </data>
+  <data name="NewsAdd" xml:space="preserve">
+    <value>news.add.html</value>
+  </data>
+  <data name="NewsEdit" xml:space="preserve">
+    <value>news.edit.html</value>
+  </data>
+  <data name="NewsList" xml:space="preserve">
+    <value>news.list.html</value>
+  </data>
+  <data name="BookingList" xml:space="preserve">
+    <value>booking.list.html</value>
+  </data>
+</root>

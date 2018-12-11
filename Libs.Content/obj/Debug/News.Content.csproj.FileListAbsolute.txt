@@ -1,0 +1,9 @@
+D:\Code\bus.booking\News.Content\bin\Debug\News.Content.dll
+D:\Code\bus.booking\News.Content\bin\Debug\News.Content.pdb
+D:\Code\bus.booking\News.Content\bin\Debug\Libs.Db.dll
+D:\Code\bus.booking\News.Content\bin\Debug\Libs.Utils.dll
+D:\Code\bus.booking\News.Content\bin\Debug\Libs.Db.pdb
+D:\Code\bus.booking\News.Content\bin\Debug\Libs.Utils.pdb
+D:\Code\bus.booking\News.Content\obj\Debug\News.Content.csprojResolveAssemblyReference.cache
+D:\Code\bus.booking\News.Content\obj\Debug\News.Content.dll
+D:\Code\bus.booking\News.Content\obj\Debug\News.Content.pdb

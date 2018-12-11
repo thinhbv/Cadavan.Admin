@@ -1,0 +1,54 @@
+D:\Code\bus.booking\News.Content\bin\Debug\News.Content.dll
+D:\Code\bus.booking\News.Content\bin\Debug\News.Content.pdb
+D:\Code\bus.booking\News.Content\bin\Debug\Libs.Db.dll
+D:\Code\bus.booking\News.Content\bin\Debug\Libs.Utils.dll
+D:\Code\bus.booking\News.Content\bin\Debug\Libs.Db.pdb
+D:\Code\bus.booking\News.Content\bin\Debug\Libs.Utils.pdb
+D:\Code\bus.booking\News.Content\obj\Debug\LIbs.Content.csprojResolveAssemblyReference.cache
+D:\Code\bus.booking\News.Content\obj\Debug\News.Content.dll
+D:\Code\bus.booking\News.Content\obj\Debug\News.Content.pdb
+D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Content.dll
+D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Db.dll
+D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Utils.dll
+D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Utils.pdb
+D:\Code\bus.booking\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\Code\bus.booking\Libs.Content\obj\Debug\Libs.Content.dll
+D:\Code\bus.booking\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Content.dll
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Db.dll
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Utils.dll
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Utils.pdb
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\obj\Debug\Libs.Content.dll
+D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Content.dll
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Db.dll
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Utils.dll
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Utils.pdb
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\obj\Debug\Libs.Content.dll
+D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Utils.dll
+D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Utils.pdb
+D:\02. Projects\02. Cadavan\04. Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\02. Projects\02. Cadavan\04. Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\02. Projects\02. Cadavan\04. Code\Libs.Content\obj\Debug\Libs.Content.pdb
+E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Content.dll
+E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Content.pdb
+E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Db.dll
+E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Utils.dll
+E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Db.pdb
+E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Utils.pdb
+E:\Cadavan\Admin\04. Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+E:\Cadavan\Admin\04. Code\Libs.Content\obj\Debug\Libs.Content.dll
+E:\Cadavan\Admin\04. Code\Libs.Content\obj\Debug\Libs.Content.pdb

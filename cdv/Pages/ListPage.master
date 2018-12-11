@@ -1,0 +1,143 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ListPage.master.cs" Inherits="Pages_ListPage" %>
+
+<%@ Register Src="~/Controls/Header.ascx" TagName="HeaderControl" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/Left.ascx" TagName="LeftControl" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/js.ascx" TagName="JsControl" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/ThemeSetting.ascx" TagName="ThemeSettingControl" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagName="FooterControl" TagPrefix="uc" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Cadavan - Hệ thống quản lý, bán vé máy bay online</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/admin/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	
+	<!-- Font Awesome-->
+	<link href="/admin/resources/css/font-awesome.min.css" rel="stylesheet" />
+
+	<!-- Pace -->
+	<link href="/admin/resources/css/pace.css" rel="stylesheet" />
+	
+	<!-- Datatable -->
+	<link href="/admin/resources/css/jquery.dataTables_themeroller.css" rel="stylesheet" />
+	
+	<!-- Endless -->
+	<link href="/admin/resources/css/endless.min.css" rel="stylesheet" />
+	<link href="/admin/resources/css/endless-skin.css" rel="stylesheet" />
+
+    <!-- Chosen -->
+	<link href="/admin/resources/css/chosen/chosen.min.css" rel="stylesheet"/>
+
+	<!-- Dropzone -->
+	<link href='/admin/resources/css/dropzone/dropzone.css' rel="stylesheet"/>
+
+	<!-- Datepicker -->
+	<link href="/admin/resources/css/datepicker.css" rel="stylesheet"/>
+	
+	<!-- Timepicker -->
+	<link href="/admin/resources/css/bootstrap-timepicker.css" rel="stylesheet"/>
+</head>
+<body class="overflow-hidden">
+    <form id="form1" runat="server">
+	<uc:ThemeSettingControl runat="server" ID="ThemeSettingControl" />
+	
+	<div id="wrapper" class="preload">
+        <uc:HeaderControl runat="server" ID="HeaderControl" />
+
+        <uc:LeftControl runat="server" ID="LeftControl" />
+		
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <uc:FooterControl runat="server" ID="FooterControl" />
+	</div><!-- /wrapper -->
+
+	<a href="" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>
+	
+	<!-- Logout confirmation -->
+	<div class="custom-popup width-100" id="logoutConfirm">
+		<div class="padding-md">
+			<h4 class="m-top-none"> Do you want to logout?</h4>
+		</div>
+
+		<div class="text-center">
+			<a class="btn btn-success m-right-sm" href="login.html">Logout</a>
+			<a class="btn btn-danger logoutConfirm_close">Cancel</a>
+		</div>
+	</div>
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+	<!-- Jquery -->
+	<script src="/admin/resources/js/jquery-1.10.2.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="/admin/resources/bootstrap/js/bootstrap.min.js"></script>
+ 
+	<!-- Datatable -->
+	<script src='/admin/resources/js/jquery.dataTables.min.js'></script>	
+
+	<!-- Datepicker -->
+	<script src='/admin/resources/js/bootstrap-datepicker.min.js'></script>	
+
+	<!-- Timepicker -->
+	<script src='/admin/resources/js/bootstrap-timepicker.min.js'></script>	
+	
+	<!-- Modernizr -->
+	<script src='/admin/resources/js/modernizr.min.js'></script>
+	
+	<!-- Pace -->
+	<script src='/admin/resources/js/pace.min.js'></script>
+	
+	<!-- Popup Overlay -->
+	<script src='/admin/resources/js/jquery.popupoverlay.min.js'></script>
+	
+	<!-- Slimscroll -->
+	<script src='/admin/resources/js/jquery.slimscroll.min.js'></script>
+	
+	<!-- Cookie -->
+	<script src='/admin/resources/js/jquery.cookie.min.js'></script>
+
+	<!-- Endless -->
+	<script src='/admin/resources/js/endless/endless.js'></script>
+	
+	<!-- Chosen -->
+	<script src='/admin/resources/js/chosen.jquery.min.js'></script>	
+
+	<!-- Dropzone -->
+	<script src='/admin/resources/js/dropzone.min.js'></script>	
+
+	<script>
+	    $(function () {
+	        $('#dataTable').dataTable({
+	            "bJQueryUI": true,
+	            "sPaginationType": "full_numbers"
+	        });
+
+	        $('#chk-all').click(function () {
+	            if ($(this).is(':checked')) {
+	                $('#responsiveTable').find('.chk-row').each(function () {
+	                    $(this).prop('checked', true);
+	                    $(this).parent().parent().parent().addClass('selected');
+	                });
+	            }
+	            else {
+	                $('#responsiveTable').find('.chk-row').each(function () {
+	                    $(this).prop('checked', false);
+	                    $(this).parent().parent().parent().removeClass('selected');
+	                });
+	            }
+	        });
+	    });
+	</script>
+	
+
+    <div>
+    </div>
+    </form>
+</body>
+</html>
