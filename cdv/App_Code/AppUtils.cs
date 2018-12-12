@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.Routing;
@@ -163,5 +164,18 @@ public class AppUtils
 		{
 			return "0 ₫";
 		}
+	}
+	public static string CalTimeFly(string StartDate, string EndDate, string DepTime, string DicTime)
+	{
+		DateTime startDate;
+		DateTime endDate;
+		startDate = DateTime.Parse(StartDate + " " + DepTime, new CultureInfo("vi-VN", true));
+		endDate = DateTime.Parse(EndDate + " " + DicTime, new CultureInfo("vi-VN", true));
+		if (startDate > endDate)
+		{
+			endDate = endDate.AddDays(1);
+		}
+		double minutes = (endDate - startDate).TotalMinutes;
+		return "Thời gian bay " + Math.Floor(minutes / 60).ToString() + "h" + (minutes - Math.Floor(minutes / 60) * 60).ToString();
 	}
 }

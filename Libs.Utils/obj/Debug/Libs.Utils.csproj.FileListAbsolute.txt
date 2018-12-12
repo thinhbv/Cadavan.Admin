@@ -113,4 +113,3 @@ E:\Cadavan\Admin\04. Code\Libs.Utils\bin\Debug\Libs.Utils.dll
 E:\Cadavan\Admin\04. Code\Libs.Utils\bin\Debug\Libs.Utils.pdb
 E:\Cadavan\Admin\04. Code\Libs.Utils\obj\Debug\Libs.Utils.dll
 E:\Cadavan\Admin\04. Code\Libs.Utils\obj\Debug\Libs.Utils.pdb
-E:\Cadavan\Admin\04. Code\Libs.Utils\obj\Debug\Libs.Utils.csprojResolveAssemblyReference.cache

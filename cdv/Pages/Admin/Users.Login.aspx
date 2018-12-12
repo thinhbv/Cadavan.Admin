@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>BusTime: Đăng nhập hệ thống</title>
+    <title>Cadavan: Đăng nhập hệ thống</title>
     <!-- Bootstrap core CSS -->
     <link href="../../resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 	
@@ -19,7 +19,7 @@
     <div class="login-wrapper">
 		<div class="text-center">
 			<h2 class="fadeInUp animation-delay8" style="font-weight:bold">
-				<span class="text-success">BusTime</span> <span style="color:#ccc; text-shadow:0 1px #fff">Admin</span>
+				<span class="text-success">Cadavan</span> <span style="color:#ccc; text-shadow:0 1px #fff">Admin</span>
 			</h2>
 		</div>
 		<div class="login-widget animation-delay1">	

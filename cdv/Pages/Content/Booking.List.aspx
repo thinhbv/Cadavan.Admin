@@ -1,6 +1,28 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/ListPage.master" AutoEventWireup="true" CodeFile="Booking.List.aspx.cs" Inherits="Pages_Content_Booking_List" %>
 
+<%@ Import Namespace="Libs.Content" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+	<script type="text/javascript">
+
+		$(function () {
+			$(".edit").on("click", function () {
+				$(".modal-body").html("");
+				var orderid = $(this).attr("data");
+				$.ajax({
+					type: "GET",
+					url: "Pages/DetailInfo.aspx",
+					data: { id: orderid },
+					contentType: "application/html",
+					dataType: "html",
+					success: function (data) {
+						$(".modal-body").html($(data).find(".modal-body").html());
+					},
+					failure: function (response) {
+					}
+				});
+			})
+		})
+		</script>
 	<div id="main-container">
 		<div class="main-header clearfix">
 			<div class="page-title">
@@ -46,8 +68,6 @@
 				</div>
 			</div>
 			<!-- /panel -->
-
-
 			<div class="panel panel-default table-responsive">
 				<div class="panel-heading">
 					<asp:Label ID="lblTotalRecord" runat="server" Text="0"></asp:Label>
@@ -72,7 +92,7 @@
 							<asp:Repeater ID="rptList" runat="server">
 								<ItemTemplate>
 									<tr>
-										<td><a href="#formModal" role="button" data-toggle="modal" ><i class="fa fa-edit fa-lg"></i></a></td>
+										<td><a class="edit" data='<%#Eval("OrderId") %>' href="#formModal" role="button" data-toggle="modal"><i class="fa fa-edit fa-lg"></i></a></td>
 										<td><%#Eval("CompanyName") %></td>
 										<td><%#Eval("TicketID") %></td>
 										<td><%#Eval("TicketClassName") %></td>
@@ -88,58 +108,19 @@
 							</asp:Repeater>
 						</tbody>
 					</table>
+
 					<div class="modal fade" id="formModal">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-									<h4>Register Form</h4>
+									<h4>Chi tiết đơn hàng</h4>
 								</div>
 								<div class="modal-body">
-									<form>
-										<div class="form-group">
-											<label>Username</label>
-											<input type="text" class="form-control input-sm" placeholder="Username">
-										</div>
-										<!-- /form-group -->
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label>Password</label>
-													<input type="password" class="form-control input-sm" placeholder="Password">
-												</div>
-											</div>
-											<!-- /.col -->
-											<div class="col-md-6">
-												<div class="form-group">
-													<label>Confirm Password</label>
-													<input type="password" class="form-control input-sm" placeholder="Password">
-												</div>
-											</div>
-											<!-- /.col -->
-										</div>
-										<!-- /.row -->
-
-
-										<div class="form-group">
-											<label>Email</label>
-											<input type="text" class="form-control input-sm" placeholder="test@example.com">
-										</div>
-										<!-- /form-group -->
-										<div class="form-group">
-											<label class="label-checkbox">
-												<input type="checkbox" class="regular-checkbox" />
-												<span class="custom-checkbox"></span>
-												I accept the user agreement.
-							
-											</label>
-										</div>
-										<!-- /form-group -->
-									</form>
 								</div>
 								<div class="modal-footer">
-									<button class="btn btn-success btn-sm" data-dismiss="modal" aria-hidden="true">Close</button>
 									<a href="#" class="btn btn-danger btn-sm">Submit</a>
+									<button class="btn btn-success btn-sm" data-dismiss="modal" aria-hidden="true">Close</button>
 								</div>
 							</div>
 							<!-- /.modal-content -->

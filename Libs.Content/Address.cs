@@ -78,4 +78,14 @@ namespace Libs.Content
 			return db.GetListSP<Airlines>("sp_Airlines_Select");
 		}
 	}
+
+	public class Info
+	{
+		public string Type { get; set; }
+		public int Quanlity { get; set; }
+		public double PriceNet { get; set; }
+		public double TaxAndFee { get; set; }
+		public string Discount { get; set; }
+		public double TotalPrice { get; set; }
+	}
 }

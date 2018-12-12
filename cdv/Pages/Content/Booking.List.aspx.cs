@@ -38,8 +38,14 @@ public partial class Pages_Content_Booking_List : System.Web.UI.Page
 		
 		string airline = drpAir.SelectedValue;
 		int status = Convert.ToInt32(drpStatus.SelectedValue);
-
-		rptList.DataSource = new Orders().Get(status, airline);
+		List<Orders> lstOrder = new Orders().Get(status, airline);
+		if (Session["Orders"] != null)
+		{
+			Session.Remove("Orders");
+			Session["Orders"] = null;
+		}
+		Session.Add("Orders", lstOrder);
+		rptList.DataSource = lstOrder;
 		rptList.DataBind();
 
 		lblTotalRecord.Text = "Tổng số bản ghi: " + rptList.Items.Count;

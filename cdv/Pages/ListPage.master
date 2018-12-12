@@ -37,6 +37,8 @@
 	
 	<!-- Timepicker -->
 	<link href="/admin/resources/css/bootstrap-timepicker.css" rel="stylesheet"/>
+	<!-- Jquery -->
+	<script src="/admin/resources/js/jquery-1.10.2.min.js"></script>
 </head>
 <body class="overflow-hidden">
     <form id="form1" runat="server">
@@ -71,9 +73,6 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-	
-	<!-- Jquery -->
-	<script src="/admin/resources/js/jquery-1.10.2.min.js"></script>
 	
 	<!-- Bootstrap -->
     <script src="/admin/resources/bootstrap/js/bootstrap.min.js"></script>

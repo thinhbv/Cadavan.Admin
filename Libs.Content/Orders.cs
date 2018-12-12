@@ -37,10 +37,15 @@ namespace Libs.Content
 		public string LastName { get; set; }
 		public string Phone { get; set; }
 		public string Email { get; set; }
+		public string Address { get; set; }
 		//Orders
 		public int RoundTrip { get; set; }
 		public string FromCity { get; set; }
 		public string ToCity { get; set; }
+		public int Adult { get; set; }
+		public int Child { get; set; }
+		public int Infant { get; set; }
+		public double TaxFee { get; set; }
 		public double Price { get; set; }
 		public int Status { get; set; }
 		public DateTime CreateDate { get; set; }
