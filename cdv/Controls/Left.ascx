@@ -52,11 +52,11 @@
                         <span class="menu-hover"></span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="<%=Constant.ADMIN_PATH %><%=Resources.Url.BusScheduleList %>"><span class="submenu-label">Lịch hàng tuần</span></a></li>
+                        <%--<li><a href="<%=Constant.ADMIN_PATH %><%=Resources.Url.BusScheduleList %>"><span class="submenu-label">Lịch hàng tuần</span></a></li>--%>
                         <li><a href="<%=Constant.ADMIN_PATH %><%=Resources.Url.BookingList %>"><span class="submenu-label">Bán vé</span></a></li>
                     </ul>
                 </li>
-                <li class="openable">
+                <%--<li class="openable">
                     <a href="#">
                         <span class="menu-icon">
                             <i class="fa fa-book fa-lg"></i>
@@ -67,7 +67,7 @@
                     <ul class="submenu">
                         <li><a href="<%=Constant.ADMIN_PATH %><%=Resources.Url.CategoriesList %>"><span class="submenu-label">Chuyên mục</span></a></li>
                     </ul>
-                </li>
+                </li>--%>
             </ul>
 
             <%--<div class="alert alert-info">

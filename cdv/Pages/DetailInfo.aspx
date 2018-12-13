@@ -19,36 +19,24 @@
 							<th>Chiều đi</th>
 							<th></th>
 							<th></th>
-							<th></th>
-							<th></th>
-							<th></th>
 						</tr>
 						<tr>
-							<td></td>
-							<td><%=fromcity %></td>
-							<td></td>
-							<td>-----<i class="fa fa-plane"></i>-----</td>
-							<td></td>
-							<td><%=tocity %></td>
+							<td class="text-right"><%=fromcity %></td>
+							<td class="text-center">-----<i class="fa fa-plane"></i>-----</td>
+							<td class="text-left"><%=tocity %></td>
 						</tr>
 						<tr>
-							<td></td>
-							<td><%=fromname %></td>
-							<td></td>
-							<td>
+							<td class="text-right"><%=fromname %></td>
+							<td class="text-center">
 								<asp:Label ID="lblFlyName" runat="server"></asp:Label></td>
-							<td></td>
-							<td><%=toname %></td>
+							<td class="text-left"><%=toname %></td>
 						</tr>
 						<tr>
-							<td></td>
-							<td>
+							<td class="text-right">
 								<asp:Label ID="lblStartDate" runat="server"></asp:Label></td>
-							<td></td>
-							<td>
+							<td class="text-center">
 								<asp:Label ID="lblTimeFly" runat="server"></asp:Label></td>
-							<td></td>
-							<td>
+							<td class="text-left">
 								<asp:Label ID="lblEndDate" runat="server"></asp:Label></td>
 						</tr>
 					</thead>
@@ -61,36 +49,24 @@
 							<th>Chiều về</th>
 							<th></th>
 							<th></th>
-							<th></th>
-							<th></th>
-							<th></th>
 						</tr>
 						<tr>
-							<td></td>
-							<td><%=tocity %></td>
-							<td></td>
-							<td>-----<i class="fa fa-plane"></i>-----</td>
-							<td></td>
-							<td><%=fromcity %></td>
+							<td class="text-right"><%=tocity %></td>
+							<td class="text-center">-----<i class="fa fa-plane"></i>-----</td>
+							<td class="text-left"><%=fromcity %></td>
 						</tr>
 						<tr>
-							<td></td>
-							<td><%=toname %></td>
-							<td></td>
-							<td>
+							<td class="text-right"><%=toname %></td>
+							<td class="text-center">
 								<asp:Label ID="lblReturnFlyName" runat="server"></asp:Label></td>
-							<td></td>
-							<td><%=fromname %></td>
+							<td class="text-left"><%=fromname %></td>
 						</tr>
 						<tr>
-							<td></td>
-							<td>
+							<td class="text-right">
 								<asp:Label ID="lblReturnStartDate" runat="server"></asp:Label></td>
-							<td></td>
-							<td>
+							<td class="text-center">
 								<asp:Label ID="lblReturnTimeFly" runat="server"></asp:Label></td>
-							<td></td>
-							<td>
+							<td class="text-left">
 								<asp:Label ID="lblReturnEndDate" runat="server"></asp:Label></td>
 						</tr>
 					</thead>
