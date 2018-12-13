@@ -11,38 +11,38 @@
     <title>Cadavan - Hệ thống quản lý, bán vé máy bay online</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/admin/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 	
 	<!-- Font Awesome -->
-	<link href="/admin/resources/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="/resources/css/font-awesome.min.css" rel="stylesheet" />
 	
 	<!-- Pace -->
-	<link href="/admin/resources/css/pace.css" rel="stylesheet" />
+	<link href="/resources/css/pace.css" rel="stylesheet" />
 	
 	<!-- Chosen -->
-	<link href="/admin/resources/css/chosen/chosen.min.css" rel="stylesheet"/>
+	<link href="/resources/css/chosen/chosen.min.css" rel="stylesheet"/>
 
 	<!-- Datepicker -->
-	<link href="/admin/resources/css/datepicker.css" rel="stylesheet"/>
+	<link href="/resources/css/datepicker.css" rel="stylesheet"/>
 	
 	<!-- Timepicker -->
-	<link href="/admin/resources/css/bootstrap-timepicker.css" rel="stylesheet"/>
+	<link href="/resources/css/bootstrap-timepicker.css" rel="stylesheet"/>
 	
 	<!-- Slider -->
-	<link href="/admin/resources/css/slider.css" rel="stylesheet"/>
+	<link href="/resources/css/slider.css" rel="stylesheet"/>
 	
 	<!-- Tag input -->
-	<link href="/admin/resources/css/jquery.tagsinput.css" rel="stylesheet"/>
+	<link href="/resources/css/jquery.tagsinput.css" rel="stylesheet"/>
 
 	<!-- WYSIHTML5 -->
-	<link href="/admin/resources/css/bootstrap-wysihtml5.css" rel="stylesheet"/>
+	<link href="/resources/css/bootstrap-wysihtml5.css" rel="stylesheet"/>
 	
 	<!-- Dropzone -->
-	<link href='/admin/resources/css/dropzone/dropzone.css' rel="stylesheet"/>
+	<link href='/resources/css/dropzone/dropzone.css' rel="stylesheet"/>
 	
 	<!-- Endless -->
-	<link href="/admin/resources/css/endless.min.css" rel="stylesheet" />
-	<link href="/admin/resources/css/endless-skin.css" rel="stylesheet" />
+	<link href="/resources/css/endless.min.css" rel="stylesheet" />
+	<link href="/resources/css/endless-skin.css" rel="stylesheet" />
 </head>
 <body class="overflow-hidden">
     <form id="form1" runat="server">
@@ -78,57 +78,57 @@
     <!-- Placed at the end of the document so the pages load faster -->
 	
 	<!-- Jquery -->
-	<script src="/admin/resources/js/jquery-1.10.2.min.js"></script>
+	<script src="resources/js/jquery-1.10.2.min.js"></script>
 	
 	<!-- Bootstrap -->
-    <script src="/admin/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
     
 	<!-- Chosen -->
-	<script src='/admin/resources/js/chosen.jquery.min.js'></script>	
+	<script src='resources/js/chosen.jquery.min.js'></script>	
 
 	<!-- Mask-input -->
-	<script src='/admin/resources/js/jquery.maskedinput.min.js'></script>	
+	<script src='resources/js/jquery.maskedinput.min.js'></script>	
 
 	<!-- Datepicker -->
-	<script src='/admin/resources/js/bootstrap-datepicker.min.js'></script>	
+	<script src='resources/js/bootstrap-datepicker.min.js'></script>	
 
 	<!-- Timepicker -->
-	<script src='/admin/resources/js/bootstrap-timepicker.min.js'></script>	
+	<script src='resources/js/bootstrap-timepicker.min.js'></script>	
 	
 	<!-- Slider -->
-	<script src='/admin/resources/js/bootstrap-slider.min.js'></script>	
+	<script src='resources/js/bootstrap-slider.min.js'></script>	
 	
 	<!-- Tag input -->
-	<script src='/admin/resources/js/jquery.tagsinput.min.js'></script>	
+	<script src='resources/js/jquery.tagsinput.min.js'></script>	
 
 	<!-- WYSIHTML5 -->
-	<script src='/admin/resources/js/wysihtml5-0.3.0.min.js'></script>	
-	<script src='/admin/resources/js/uncompressed/bootstrap-wysihtml5.js'></script>	
+	<script src='resources/js/wysihtml5-0.3.0.min.js'></script>	
+	<script src='resources/js/uncompressed/bootstrap-wysihtml5.js'></script>	
 
 	<!-- Dropzone -->
-	<script src='/admin/resources/js/dropzone.min.js'></script>	
+	<script src='resources/js/dropzone.min.js'></script>	
 	
 	<!-- Modernizr -->
-	<script src='/admin/resources/js/modernizr.min.js'></script>
+	<script src='resources/js/modernizr.min.js'></script>
 	
 	<!-- Pace -->
-	<script src='/admin/resources/js/pace.min.js'></script>
+	<script src='resources/js/pace.min.js'></script>
 	
 	<!-- Popup Overlay -->
-	<script src='/admin/resources/js/jquery.popupoverlay.min.js'></script>
+	<script src='resources/js/jquery.popupoverlay.min.js'></script>
 	
 	<!-- Slimscroll -->
-	<script src='/admin/resources/js/jquery.slimscroll.min.js'></script>
+	<script src='resources/js/jquery.slimscroll.min.js'></script>
 	
 	<!-- Cookie -->
-	<script src='/admin/resources/js/jquery.cookie.min.js'></script>
+	<script src='resources/js/jquery.cookie.min.js'></script>
 
 	<!-- Endless -->
-	<script src="/admin/resources/js/endless/endless_form.js"></script>
-	<script src="/admin/resources/js/endless/endless.js"></script>
+	<script src="resources/js/endless/endless_form.js"></script>
+	<script src="resources/js/endless/endless.js"></script>
 
 	<!-- Parsley -->
-	<script src="/admin/resources/js/parsley.min.js"></script>
+	<script src="resources/js/parsley.min.js"></script>
 
     </form>
 </body>

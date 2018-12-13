@@ -5,13 +5,16 @@
 	<script type="text/javascript">
 
 		$(function () {
+			var orderid;
 			$(".edit").on("click", function () {
 				$(".modal-body").html("");
-				var orderid = $(this).attr("data");
+				orderid = $(this).attr("data");
+				var status = $('#<%=drpStatus.ClientID%>').val();
+				var aircode = $('#<%=drpAir.ClientID%>').val();
 				$.ajax({
 					type: "GET",
 					url: "Pages/DetailInfo.aspx",
-					data: { id: orderid },
+					data: { id: orderid, status: status, air: aircode },
 					contentType: "application/html",
 					dataType: "html",
 					success: function (data) {
@@ -21,8 +24,40 @@
 					}
 				});
 			})
+
+			$("#btnupdate").on("click", function () {
+				var status = $("#drpStatus").val();
+				$.ajax({
+					type: "GET",
+					url: "Pages/DetailInfo.aspx",
+					data: { id: orderid, status: status, action: 'update' },
+					contentType: "application/html",
+					dataType: "html",
+					success: function (data) {
+						$("#btnClose").trigger("click");
+						window.location.reload();
+					},
+					failure: function (response) {
+						$("#btnClose").trigger("click");
+						window.location.reload();
+					}
+				});
+			})
 		})
-		</script>
+	</script>
+	<style type="text/css">
+		.ticket-flight-ic-plane {
+			position: relative;
+			display: flex;
+			min-width: 90px;
+			height: 24px;
+			line-height: 24px;
+			justify-content: center;
+			font-size: 18px;
+			color: #ff662c;
+			flex-flow: row wrap;
+		}
+	</style>
 	<div id="main-container">
 		<div class="main-header clearfix">
 			<div class="page-title">
@@ -53,7 +88,7 @@
 					<div class="form-inline no-margin">
 						<div class="form-group">
 							<asp:DropDownList ID="drpStatus" CssClass="form-control input-sm inline-block" runat="server">
-								<asp:ListItem Value="999">- Tất cả -</asp:ListItem>
+								<asp:ListItem Value="999">- Tất cả trạng thái -</asp:ListItem>
 								<asp:ListItem Value="0">Chưa thanh toán</asp:ListItem>
 								<asp:ListItem Value="1">Đã thanh toán</asp:ListItem>
 								<asp:ListItem Value="2">Đã nhận vé</asp:ListItem>
@@ -99,10 +134,9 @@
 										<td><%#AppUtils.ShowStatusCart(Eval("Status").ToString()) %></td>
 										<td><%# string.Format("{0:yyyy/MM/dd}", Eval("CreateDate"))%></td>
 										<td><%#RoundTripName(Eval("RoundTrip").ToString()) %></td>
-										<td><%#ShowPlan(Eval("DepTime").ToString(), Eval("StartDate").ToString(), Eval("DicTime").ToString(), Eval("EndDate").ToString(), Eval("FromCity").ToString(), Eval("ToCity").ToString()) %></td>
+										<td><%#ShowPlan(int.Parse(Eval("OrderId").ToString())) %></td>
 										<td><%#ShowCustomerInfo(Eval("LastName").ToString(), Eval("FirstName").ToString(), Eval("Phone").ToString(), Eval("Email").ToString()) %></td>
 										<td><%#AppUtils.ConvertPrice(Eval("Price").ToString()) %></td>
-										<%--<td><%# string.Format("{0:yyyy/MM/dd HH:mm}", Eval("LastLogin"))%></td>--%>
 									</tr>
 								</ItemTemplate>
 							</asp:Repeater>
@@ -119,8 +153,8 @@
 								<div class="modal-body">
 								</div>
 								<div class="modal-footer">
-									<a href="#" class="btn btn-danger btn-sm">Submit</a>
-									<button class="btn btn-success btn-sm" data-dismiss="modal" aria-hidden="true">Close</button>
+									<span id="btnupdate" class="btn btn-danger btn-sm">Cập nhật</span>
+									<button id="btnClose" class="btn btn-success btn-sm" data-dismiss="modal" aria-hidden="true">Đóng</button>
 								</div>
 							</div>
 							<!-- /.modal-content -->

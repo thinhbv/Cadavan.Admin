@@ -2949,7 +2949,9 @@ footer hr {
 
         .panel.panel-default .panel-heading {
             background: #fff;
-            color: #777;
+            color: #ff662c;
+			font-weight:bold;
+			font-size:14px;
             border-color: #f1f5fc;
         }
 

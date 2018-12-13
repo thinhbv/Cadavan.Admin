@@ -178,4 +178,9 @@ public class AppUtils
 		double minutes = (endDate - startDate).TotalMinutes;
 		return "Thời gian bay " + Math.Floor(minutes / 60).ToString() + "h" + (minutes - Math.Floor(minutes / 60) * 60).ToString();
 	}
+
+	public static string ConvertDateTime(string date)
+	{
+		return DateTime.Parse(date).ToString("dd/MM/yyyy");
+	}
 }

@@ -15,51 +15,73 @@ public partial class Pages_DetailInfo : System.Web.UI.Page
 	protected string toname = "";
     protected void Page_Load(object sender, EventArgs e)
     {
-		string id = Request.QueryString["id"].ToString();
+		int id = int.Parse(Request.QueryString["id"].ToString());
+		int status = int.Parse(Request.QueryString["status"].ToString());
+		if (Request.QueryString["action"] != null)
+		{
+			string action = Request.QueryString["action"].ToString();
+			if (action == "update")
+			{
+				Orders order = new Orders();
+				order.UpdateStatus(id, status);
+				Response.StatusCode = 200;
+				Response.Flush();
+				return;
+			}
+		}
+		
+		string air = Request.QueryString["air"].ToString();
+		List<Orders> lstOrder;
 		if (Session["Orders"] != null)
 		{
-			List<Orders> lstOrder = (List<Orders>)Session["Orders"];
-			List<Orders> OrderInfo = lstOrder.Where(o => o.OrderId == int.Parse(id)).ToList();
-			if (OrderInfo != null && OrderInfo.Count > 0)
+			lstOrder = (List<Orders>)Session["Orders"];	
+		}
+		else
+		{
+			lstOrder = new Orders().Get(status, air);
+		}
+		List<Orders> OrderInfo = lstOrder.Where(o => o.OrderId == id).ToList();
+		if (OrderInfo != null && OrderInfo.Count > 0)
+		{
+			List<Address> lstadd = new List<Address>();
+			Address add = new Address();
+			fromcity = OrderInfo[0].FromCity;
+			lstadd = add.GetName(fromcity);
+			if (lstadd != null && lstadd.Count > 0)
 			{
-				List<Address> lstadd = new List<Address>();
-				Address add = new Address();
-				fromcity = OrderInfo[0].FromCity;
-				lstadd = add.GetName(fromcity);
-				if (lstadd != null && lstadd.Count > 0)
-				{
-					fromname = lstadd[0].name;
-				}
-				tocity = OrderInfo[0].ToCity;
-				lstadd = add.GetName(tocity);
-				if (lstadd != null && lstadd.Count > 0)
-				{
-					toname = lstadd[0].name;
-				}
-				//Hiển thị thời gian bay
-				lblStartDate.Text = OrderInfo[0].DepTime.ToString().Substring(0, OrderInfo[0].DepTime.ToString().LastIndexOf(":")) + " " + OrderInfo[0].StartDate.ToString("dd/MM/yyyy");
-				lblEndDate.Text = OrderInfo[0].DicTime.ToString().Substring(0, OrderInfo[0].DicTime.ToString().LastIndexOf(":")) + " " + OrderInfo[0].EndDate.ToString("dd/MM/yyyy");
-				lblTimeFly.Text = AppUtils.CalTimeFly(OrderInfo[0].StartDate.ToString("dd/MM/yyyy"), OrderInfo[0].EndDate.ToString("dd/MM/yyyy"), OrderInfo[0].DepTime.ToString(), OrderInfo[0].DicTime.ToString());
-				List<Info> lstInfo = CreateOrdersInfo(OrderInfo[0].Adult, OrderInfo[0].Child, OrderInfo[0].Infant, OrderInfo[0]);
-				rptOrders.DataSource = lstInfo;
-				rptOrders.DataBind();
-				if (OrderInfo.Count == 2)
-				{
-					lblReturnStartDate.Text = OrderInfo[1].DepTime.ToString().Substring(0, OrderInfo[1].DepTime.ToString().LastIndexOf(":")) + " " + OrderInfo[1].StartDate.ToString("dd/MM/yyyy");
-					lblReturnEndDate.Text = OrderInfo[1].DicTime.ToString().Substring(0, OrderInfo[1].DicTime.ToString().LastIndexOf(":")) + " " + OrderInfo[1].EndDate.ToString("dd/MM/yyyy");
-					lblReturnTimeFly.Text = AppUtils.CalTimeFly(OrderInfo[1].StartDate.ToString("dd/MM/yyyy"), OrderInfo[1].EndDate.ToString("dd/MM/yyyy"), OrderInfo[1].DepTime.ToString(), OrderInfo[1].DicTime.ToString());
-					lstInfo = new List<Info>();
-					lstInfo = CreateOrdersInfo(OrderInfo[1].Adult, OrderInfo[1].Child, OrderInfo[1].Infant, OrderInfo[1]);
-					rptReturnOrders.DataSource = lstInfo;
-					rptReturnOrders.DataBind();
-				}
-				lblTotalTax.Text = AppUtils.ConvertPrice(OrderInfo[0].TaxFee.ToString());
-				lblTotalPrice.Text = AppUtils.ConvertPrice(OrderInfo[0].Price.ToString());
-				lblContactName.Text = OrderInfo[0].FirstName + " " + OrderInfo[0].LastName;
-				lblContactPhone.Text = OrderInfo[0].Phone;
-				lblContactEmail.Text = OrderInfo[0].Email;
-				lblContactAddress.Text = OrderInfo[0].Address;
+				fromname = lstadd[0].name;
 			}
+			tocity = OrderInfo[0].ToCity;
+			lstadd = add.GetName(tocity);
+			if (lstadd != null && lstadd.Count > 0)
+			{
+				toname = lstadd[0].name;
+			}
+			//Hiển thị thời gian bay
+			lblStartDate.Text = OrderInfo[0].DepTime.ToString().Substring(0, OrderInfo[0].DepTime.ToString().LastIndexOf(":")) + " " + OrderInfo[0].StartDate.ToString("dd/MM/yyyy");
+			lblEndDate.Text = OrderInfo[0].DicTime.ToString().Substring(0, OrderInfo[0].DicTime.ToString().LastIndexOf(":")) + " " + OrderInfo[0].EndDate.ToString("dd/MM/yyyy");
+			lblTimeFly.Text = AppUtils.CalTimeFly(OrderInfo[0].StartDate.ToString("dd/MM/yyyy"), OrderInfo[0].EndDate.ToString("dd/MM/yyyy"), OrderInfo[0].DepTime.ToString(), OrderInfo[0].DicTime.ToString());
+			List<Info> lstInfo = CreateOrdersInfo(OrderInfo[0].Adult, OrderInfo[0].Child, OrderInfo[0].Infant, OrderInfo[0]);
+			rptOrders.DataSource = lstInfo;
+			rptOrders.DataBind();
+			if (OrderInfo.Count == 2)
+			{
+				pnReturn.Visible = true;
+				lblReturnStartDate.Text = OrderInfo[1].DepTime.ToString().Substring(0, OrderInfo[1].DepTime.ToString().LastIndexOf(":")) + " " + OrderInfo[1].StartDate.ToString("dd/MM/yyyy");
+				lblReturnEndDate.Text = OrderInfo[1].DicTime.ToString().Substring(0, OrderInfo[1].DicTime.ToString().LastIndexOf(":")) + " " + OrderInfo[1].EndDate.ToString("dd/MM/yyyy");
+				lblReturnTimeFly.Text = AppUtils.CalTimeFly(OrderInfo[1].StartDate.ToString("dd/MM/yyyy"), OrderInfo[1].EndDate.ToString("dd/MM/yyyy"), OrderInfo[1].DepTime.ToString(), OrderInfo[1].DicTime.ToString());
+				lstInfo = new List<Info>();
+				lstInfo = CreateOrdersInfo(OrderInfo[1].Adult, OrderInfo[1].Child, OrderInfo[1].Infant, OrderInfo[1]);
+				rptReturnOrders.DataSource = lstInfo;
+				rptReturnOrders.DataBind();
+			}
+			lblTotalTax.Text = AppUtils.ConvertPrice(OrderInfo[0].TaxFee.ToString());
+			lblTotalPrice.Text = AppUtils.ConvertPrice(OrderInfo[0].Price.ToString());
+			lblContactName.Text = OrderInfo[0].FirstName + " " + OrderInfo[0].LastName;
+			lblContactPhone.Text = OrderInfo[0].Phone;
+			lblContactEmail.Text = OrderInfo[0].Email;
+			lblContactAddress.Text = OrderInfo[0].Address;
+			drpStatus.SelectedValue = OrderInfo[0].Status.ToString();
 		}
     }
 	public static List<Info> CreateOrdersInfo(int Adult, int Child, int Infant, Orders item)

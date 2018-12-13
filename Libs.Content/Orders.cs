@@ -64,5 +64,27 @@ namespace Libs.Content
 				, new SqlParameter("@status", status)
 				, new SqlParameter("@aircode", code));
 		}
+
+		public bool UpdateStatus(int orderid, int status)
+		{
+			SqlConnection mCon = null;
+			string sSQL;
+			SqlCommand sqlCmd;
+			DbHelper db = new DbHelper(Config.BookingConnectionStrings);
+			try
+			{
+				mCon = db.OpenConnection();
+				sSQL = "UPDATE Orders SET Status =@Status WHERE Id=@Id";
+				sqlCmd = new SqlCommand(sSQL, mCon);
+				sqlCmd.Parameters.Add(new SqlParameter("@Id", orderid));
+				sqlCmd.Parameters.Add(new SqlParameter("@Status", status));
+				sqlCmd.ExecuteNonQuery();
+				return true;
+			}
+			catch (Exception ex)
+			{
+				throw ex;
+			}
+		}
 	}
 }

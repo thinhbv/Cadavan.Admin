@@ -11,34 +11,34 @@
 <head runat="server">
     <title>Cadavan - Hệ thống quản lý, bán vé máy bay online</title>
     <!-- Bootstrap core CSS -->
-    <link href="/admin/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 	
 	<!-- Font Awesome-->
-	<link href="/admin/resources/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="../resources/css/font-awesome.min.css" rel="stylesheet" />
 
 	<!-- Pace -->
-	<link href="/admin/resources/css/pace.css" rel="stylesheet" />
+	<link href="../resources/css/pace.css" rel="stylesheet" />
 	
 	<!-- Datatable -->
-	<link href="/admin/resources/css/jquery.dataTables_themeroller.css" rel="stylesheet" />
+	<link href="../resources/css/jquery.dataTables_themeroller.css" rel="stylesheet" />
 	
 	<!-- Endless -->
-	<link href="/admin/resources/css/endless.min.css" rel="stylesheet" />
-	<link href="/admin/resources/css/endless-skin.css" rel="stylesheet" />
+	<link href="../resources/css/endless.min.css" rel="stylesheet" />
+	<link href="../resources/css/endless-skin.css" rel="stylesheet" />
 
     <!-- Chosen -->
-	<link href="/admin/resources/css/chosen/chosen.min.css" rel="stylesheet"/>
+	<link href="../resources/css/chosen/chosen.min.css" rel="stylesheet"/>
 
 	<!-- Dropzone -->
-	<link href='/admin/resources/css/dropzone/dropzone.css' rel="stylesheet"/>
+	<link href='../resources/css/dropzone/dropzone.css' rel="stylesheet"/>
 
 	<!-- Datepicker -->
-	<link href="/admin/resources/css/datepicker.css" rel="stylesheet"/>
+	<link href="../resources/css/datepicker.css" rel="stylesheet"/>
 	
 	<!-- Timepicker -->
-	<link href="/admin/resources/css/bootstrap-timepicker.css" rel="stylesheet"/>
+	<link href="../resources/css/bootstrap-timepicker.css" rel="stylesheet"/>
 	<!-- Jquery -->
-	<script src="/admin/resources/js/jquery-1.10.2.min.js"></script>
+	<script src="resources/js/jquery-1.10.2.min.js"></script>
 </head>
 <body class="overflow-hidden">
     <form id="form1" runat="server">
@@ -75,40 +75,40 @@
     <!-- Placed at the end of the document so the pages load faster -->
 	
 	<!-- Bootstrap -->
-    <script src="/admin/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
  
 	<!-- Datatable -->
-	<script src='/admin/resources/js/jquery.dataTables.min.js'></script>	
+	<script src='resources/js/jquery.dataTables.min.js'></script>	
 
 	<!-- Datepicker -->
-	<script src='/admin/resources/js/bootstrap-datepicker.min.js'></script>	
+	<script src='resources/js/bootstrap-datepicker.min.js'></script>	
 
 	<!-- Timepicker -->
-	<script src='/admin/resources/js/bootstrap-timepicker.min.js'></script>	
+	<script src='resources/js/bootstrap-timepicker.min.js'></script>	
 	
 	<!-- Modernizr -->
-	<script src='/admin/resources/js/modernizr.min.js'></script>
+	<script src='resources/js/modernizr.min.js'></script>
 	
 	<!-- Pace -->
-	<script src='/admin/resources/js/pace.min.js'></script>
+	<script src='resources/js/pace.min.js'></script>
 	
 	<!-- Popup Overlay -->
-	<script src='/admin/resources/js/jquery.popupoverlay.min.js'></script>
+	<script src='resources/js/jquery.popupoverlay.min.js'></script>
 	
 	<!-- Slimscroll -->
-	<script src='/admin/resources/js/jquery.slimscroll.min.js'></script>
+	<script src='resources/js/jquery.slimscroll.min.js'></script>
 	
 	<!-- Cookie -->
-	<script src='/admin/resources/js/jquery.cookie.min.js'></script>
+	<script src='resources/js/jquery.cookie.min.js'></script>
 
 	<!-- Endless -->
-	<script src='/admin/resources/js/endless/endless.js'></script>
+	<script src='resources/js/endless/endless.js'></script>
 	
 	<!-- Chosen -->
-	<script src='/admin/resources/js/chosen.jquery.min.js'></script>	
+	<script src='resources/js/chosen.jquery.min.js'></script>	
 
 	<!-- Dropzone -->
-	<script src='/admin/resources/js/dropzone.min.js'></script>	
+	<script src='resources/js/dropzone.min.js'></script>	
 
 	<script>
 	    $(function () {

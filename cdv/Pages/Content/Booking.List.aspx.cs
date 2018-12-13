@@ -9,8 +9,9 @@ using Libs.Content;
 
 public partial class Pages_Content_Booking_List : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
+	List<Orders> lstOrder = null;
+	protected void Page_Load(object sender, EventArgs e)
+	{
 		AppUtils.CheckSecurity();
 
 		if (!IsPostBack)
@@ -19,7 +20,7 @@ public partial class Pages_Content_Booking_List : System.Web.UI.Page
 
 			GetList();
 		}
-    }
+	}
 	private void init()
 	{
 		Title = "Cadavan - Danh sách đơn hàng";
@@ -35,17 +36,38 @@ public partial class Pages_Content_Booking_List : System.Web.UI.Page
 	}
 	private void GetList()
 	{
-		
+
 		string airline = drpAir.SelectedValue;
 		int status = Convert.ToInt32(drpStatus.SelectedValue);
-		List<Orders> lstOrder = new Orders().Get(status, airline);
+		lstOrder = new Orders().Get(status, airline);
 		if (Session["Orders"] != null)
 		{
 			Session.Remove("Orders");
 			Session["Orders"] = null;
 		}
 		Session.Add("Orders", lstOrder);
-		rptList.DataSource = lstOrder;
+		List<int> lstId = new List<int>();
+		List<Orders> lstTemp = new List<Orders>();
+		for (int i = 0; i < lstOrder.Count; i++)
+		{
+			bool isExist = false;
+			for (int j = 0; j < lstTemp.Count; j++)
+			{
+				if (lstOrder[i].OrderId == lstTemp[j].OrderId)
+				{
+					isExist = true;
+					lstTemp[j].TicketId += "<br/>" + lstOrder[i].TicketId;
+					lstTemp[j].TicketClassName += "<br/>" + lstOrder[i].TicketClassName;
+					lstTemp[j].CompanyName += "<br/>" + lstOrder[i].CompanyName;
+					break;
+				}
+			}
+			if (!isExist)
+			{
+				lstTemp.Add(lstOrder[i]);
+			}
+		}
+		rptList.DataSource = lstTemp;
 		rptList.DataBind();
 
 		lblTotalRecord.Text = "Tổng số bản ghi: " + rptList.Items.Count;
@@ -76,9 +98,26 @@ public partial class Pages_Content_Booking_List : System.Web.UI.Page
 				return "<span class=\"label label-danger\">Một chiều</span>";
 		}
 	}
-	protected string ShowPlan(string deptime, string startdate, string dictime, string enddate, string fromcity, string tocity)
+	protected string ShowPlan(int id)
 	{
-		return deptime.Substring(0, deptime.LastIndexOf(":")) + " " + startdate.Substring(0, startdate.LastIndexOf("/")) + " <b>" + fromcity + "</b> - <b>" + tocity + "</b> " + dictime.Substring(0, deptime.LastIndexOf(":")) + " " + enddate.Substring(0, enddate.LastIndexOf("/"));
+		string sReturn = "";
+		List<Orders> lst = lstOrder.Where(o => o.OrderId == id).ToList();
+		if (lst != null && lst.Count > 0)
+		{
+			sReturn += " <b>" + lst[0].FromCity + "</b> - <b>" + lst[0].ToCity + "</b> ";
+			//for (int i = 0; i < lst.Count; i++)
+			//{
+				//sReturn += lst[i].DepTime.ToString().Substring(0, lst[i].DepTime.ToString().LastIndexOf(":")) + " " + lst[i].StartDate.ToString("dd/MM/yyyy").Substring(0, lst[i].StartDate.ToString("dd/MM/yyyy").LastIndexOf("/"));
+				//sReturn += " <b>" + lst[i].FromCity + "</b> - <b>" + lst[i].ToCity + "</b> ";
+				//sReturn += lst[i].DicTime.ToString().Substring(0, lst[i].DicTime.ToString().LastIndexOf(":")) + " " + lst[i].EndDate.ToString("dd/MM/yyyy").Substring(0, lst[i].EndDate.ToString("dd/MM/yyyy").LastIndexOf("/"));
+				//if (i == 0)
+				//{
+					//sReturn += "<br/>";
+				//}
+			//}
+
+		}
+		return sReturn;
 	}
 	protected string ShowCustomerInfo(string firstname, string lastname, string phone, string email)
 	{
