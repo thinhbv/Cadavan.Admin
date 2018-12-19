@@ -19,31 +19,6 @@ public class AppUtils
 
     public static void Routes()
     {
-        //RouteTable.Routes.MapPageRoute("BusTypeAdd", Resources.Url.BusTypeAdd, "~/pages/bus/bustype.add.aspx");
-        //RouteTable.Routes.MapPageRoute("BusTypeEdit", Resources.Url.BusTypeEdit, "~/pages/bus/bustype.edit.aspx");
-        //RouteTable.Routes.MapPageRoute("BusTypeList", Resources.Url.BusTypeList, "~/pages/bus/bustype.list.aspx");
-        //RouteTable.Routes.MapPageRoute("BusAdd", Resources.Url.BusAdd, "~/pages/bus/bus.add.aspx");
-        //RouteTable.Routes.MapPageRoute("BusEdit", Resources.Url.BusEdit, "~/pages/bus/bus.edit.aspx");
-        //RouteTable.Routes.MapPageRoute("BusList", Resources.Url.BusList, "~/pages/bus/bus.list.aspx");
-        //RouteTable.Routes.MapPageRoute("DriversAdd", Resources.Url.DriversAdd, "~/pages/bus/drivers.add.aspx");
-        //RouteTable.Routes.MapPageRoute("DriversEdit", Resources.Url.DriversEdit, "~/pages/bus/drivers.edit.aspx");
-        //RouteTable.Routes.MapPageRoute("DriversList", Resources.Url.DriversList, "~/pages/bus/drivers.list.aspx");
-        //RouteTable.Routes.MapPageRoute("RoutesAdd", Resources.Url.RoutesAdd, "~/pages/bus/routes.add.aspx");
-        //RouteTable.Routes.MapPageRoute("RoutesEdit", Resources.Url.RoutesEdit, "~/pages/bus/routes.edit.aspx");
-        //RouteTable.Routes.MapPageRoute("RoutesList", Resources.Url.RoutesList, "~/pages/bus/routes.list.aspx");
-        //RouteTable.Routes.MapPageRoute("RouteStationList", Resources.Url.RouteStationList, "~/pages/bus/routestation.list.aspx");
-        //RouteTable.Routes.MapPageRoute("RouteStationAdd", Resources.Url.RouteStationAdd, "~/pages/bus/routestation.add.aspx");
-        //RouteTable.Routes.MapPageRoute("RouteStationEdit", Resources.Url.RouteStationEdit, "~/pages/bus/routestation.edit.aspx");
-        //RouteTable.Routes.MapPageRoute("StationsAdd", Resources.Url.StationsAdd, "~/pages/bus/stations.add.aspx");
-        //RouteTable.Routes.MapPageRoute("StationsEdit", Resources.Url.StationsEdit, "~/pages/bus/stations.edit.aspx");
-        //RouteTable.Routes.MapPageRoute("StationsList", Resources.Url.StationsList, "~/pages/bus/stations.list.aspx");
-        //RouteTable.Routes.MapPageRoute("BusScheduleAdd", Resources.Url.BusScheduleAdd, "~/pages/bus/busschedule.add.aspx");
-        //RouteTable.Routes.MapPageRoute("BusScheduleEdit", Resources.Url.BusScheduleEdit, "~/pages/bus/busschedule.edit.aspx");
-        //RouteTable.Routes.MapPageRoute("BusScheduleList", Resources.Url.BusScheduleList, "~/pages/bus/busschedule.list.aspx");	
-        //RouteTable.Routes.MapPageRoute("BusTimeAdd", Resources.Url.BusTimeAdd, "~/pages/bus/bustime.add.aspx");
-        //RouteTable.Routes.MapPageRoute("BusTimeEdit", Resources.Url.BusTimeEdit, "~/pages/bus/bustime.edit.aspx");
-        //RouteTable.Routes.MapPageRoute("BusTimeList", Resources.Url.BusTimeList, "~/pages/bus/bustime.list.aspx");
-
         RouteTable.Routes.MapPageRoute("Login", Resources.Url.Login, "~/pages/admin/users.login.aspx");
         RouteTable.Routes.MapPageRoute("UsersAdd", Resources.Url.UsersAdd, "~/pages/admin/users.add.aspx");
         RouteTable.Routes.MapPageRoute("UsersEdit", Resources.Url.UsersEdit, "~/pages/admin/users.edit.aspx");
@@ -58,6 +33,7 @@ public class AppUtils
         RouteTable.Routes.MapPageRoute("PermissionsEdit", Resources.Url.PermissionsEdit, "~/pages/admin/permissions.edit.aspx");
 		RouteTable.Routes.MapPageRoute("PermissionsList", Resources.Url.PermissionsList, "~/pages/admin/permissions.list.aspx");
 		RouteTable.Routes.MapPageRoute("BookingList", Resources.Url.BookingList, "~/pages/content/booking.list.aspx");
+		RouteTable.Routes.MapPageRoute("DashBoards", Resources.Url.DashBoards, "~/pages/content/DashBoards.aspx");
 
         RouteTable.Routes.MapPageRoute("Error404", Resources.Url.Error404, "~/pages/error/error404.aspx");
         RouteTable.Routes.MapPageRoute("Error500", Resources.Url.Error500, "~/pages/error/error500.aspx");

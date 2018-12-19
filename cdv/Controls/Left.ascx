@@ -29,6 +29,15 @@
                         <li><a href="<%=Constant.ADMIN_PATH %><%=Resources.Url.StationsList %>"><span class="submenu-label">Trạm dừng</span></a></li>
                     </ul>
                 </li>--%>
+				<li>
+                    <a href="<%=Constant.ADMIN_PATH %><%=Resources.Url.DashBoards %>">
+                        <span class="menu-icon">
+                            <i class="fa fa-bar-chart-o fa-lg"></i>
+                        </span>
+                        <span class="text">DashBoard</span>
+                        <span class="menu-hover"></span>
+                    </a>
+                </li>
                 <li class="openable">
                     <a href="#">
                         <span class="menu-icon">

@@ -117,51 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BusAdd" xml:space="preserve">
-    <value>booking.bus.add.html</value>
-  </data>
-  <data name="BusEdit" xml:space="preserve">
-    <value>booking.bus.edit.html</value>
-  </data>
-  <data name="BusList" xml:space="preserve">
-    <value>booking.bus.list.html</value>
-  </data>
-  <data name="BusScheduleAdd" xml:space="preserve">
-    <value>booking.busschedule.add.html</value>
-  </data>
-  <data name="BusScheduleEdit" xml:space="preserve">
-    <value>booking.busschedule.edit.html</value>
-  </data>
-  <data name="BusScheduleList" xml:space="preserve">
-    <value>booking.busschedule.list.html</value>
-  </data>
-  <data name="BusTimeAdd" xml:space="preserve">
-    <value>booking.bustime.add.html</value>
-  </data>
-  <data name="BusTimeEdit" xml:space="preserve">
-    <value>booking.bustime.edit.html</value>
-  </data>
-  <data name="BusTimeList" xml:space="preserve">
-    <value>booking.bustime.list.html</value>
-  </data>
-  <data name="BusTypeAdd" xml:space="preserve">
-    <value>booking.bustype.add.html</value>
-  </data>
-  <data name="BusTypeEdit" xml:space="preserve">
-    <value>booking.bustype.edit.html</value>
-  </data>
-  <data name="BusTypeList" xml:space="preserve">
-    <value>booking.bustype.list.html</value>
-  </data>
-  <data name="DriversAdd" xml:space="preserve">
-    <value>booking.drivers.add.html</value>
-  </data>
-  <data name="DriversEdit" xml:space="preserve">
-    <value>booking.drivers.edit.html</value>
-  </data>
-  <data name="DriversList" xml:space="preserve">
-    <value>booking.drivers.list.html</value>
-  </data>
   <data name="Error404" xml:space="preserve">
     <value>error404.html</value>
   </data>
@@ -257,5 +212,8 @@
   </data>
   <data name="BookingList" xml:space="preserve">
     <value>booking.list.html</value>
+  </data>
+  <data name="DashBoards" xml:space="preserve">
+    <value>grant.chart.html</value>
   </data>
 </root>
