@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminPage.master.cs" Inherits="Controls_AdminPage" %>
+<%@ Register Src="~/Controls/Header.ascx" TagName="HeaderControl" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagName="FooterControl" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/TopMenu.ascx" TagName="TopMenuControl" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/SideBar.ascx" TagName="SideBarControl" TagPrefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Hệ thống quản trị nội dung</title>
+    <link rel="shortcut icon" href="../resources/images/favicon.ico" type="image/x-icon" />    
+    <link rel="stylesheet" type="text/css" href="../resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../resources/css/skins/blue.css" />
+
+    <link rel="stylesheet" type="text/css" href="../resources/css/superfish.css" />
+    <link rel="stylesheet" type="text/css" href="../resources/css/uniform.default.css" />
+    <link rel="stylesheet" type="text/css" href="../resources/css/jquery.wysiwyg.css" />
+    <link rel="stylesheet" type="text/css" href="../resources/css/facebox.css" />
+    <%--<link rel="stylesheet" type="text/css" href="../resources/css/smoothness/jquery-ui-1.8.8.custom.css" />--%>
+    <!--[if lte IE 8]>
+    <script type="text/javascript" src="../resources/js/html5.js"></script>
+    <script type="text/javascript" src="../resources/js/selectivizr.js"></script>
+    <script type="text/javascript" src="../resources/js/excanvas.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="../resources/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="../resources/js/jquery-ui-1.8.8.custom.min.js"></script>
+    <script type="text/javascript" src="../resources/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../resources/js/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="../resources/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="../resources/js/superfish.js"></script>
+    <script type="text/javascript" src="../resources/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="../resources/js/Delicious_500.font.js"></script>
+    <script type="text/javascript" src="../resources/js/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="../resources/js/custom.js"></script>
+    <script type="text/javascript" src="../resources/js/facebox.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
+    <uc:HeaderControl runat="server" ID="HeaderControl" />
+    <uc:TopMenuControl runat="server" ID="TopMenuControl" />
+
+    <section id="content">
+	    <section class="container_12 clearfix">
+		    <section id="main">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                
+                </asp:ContentPlaceHolder>
+		    </section>
+    		
+		    <%--<aside id="sidebar" class="grid_3 pull_9">
+		        <uc:SideBarControl runat="server" ID="SideBarControl" />
+		    </aside>--%>
+	    </section>
+    </section>
+    <uc:FooterControl ID="FooterControl" runat="server" />
+    </form>
+</body>
+</html>

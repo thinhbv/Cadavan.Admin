@@ -1,0 +1,5 @@
+D:\2016\Mai Quynh Anh\Code\Libs.Utils\bin\Release\Libs.Utils.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Utils\bin\Release\Libs.Utils.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Utils\obj\Release\Libs.Utils.csprojResolveAssemblyReference.cache
+D:\2016\Mai Quynh Anh\Code\Libs.Utils\obj\Release\Libs.Utils.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Utils\obj\Release\Libs.Utils.pdb

@@ -85,31 +85,22 @@ D:\2016\vietchess.vn\Code\Libs.Utils\bin\Debug\Libs.Utils.pdb
 D:\2016\vietchess.vn\Code\Libs.Utils\obj\Debug\Libs.Utils.csprojResolveAssemblyReference.cache
 D:\2016\vietchess.vn\Code\Libs.Utils\obj\Debug\Libs.Utils.dll
 D:\2016\vietchess.vn\Code\Libs.Utils\obj\Debug\Libs.Utils.pdb
-C:\Code\bus.booking\Libs.Utils\bin\Debug\Libs.Utils.dll
-C:\Code\bus.booking\Libs.Utils\bin\Debug\Libs.Utils.pdb
-C:\Code\bus.booking\Libs.Utils\obj\Debug\Libs.Utils.dll
-C:\Code\bus.booking\Libs.Utils\obj\Debug\Libs.Utils.pdb
-C:\Code\bus.booking\Libs.Utils\obj\Debug\Libs.Utils.csprojResolveAssemblyReference.cache
-D:\Code\bus.booking\Libs.Utils\bin\Debug\Libs.Utils.dll
-D:\Code\bus.booking\Libs.Utils\bin\Debug\Libs.Utils.pdb
-D:\Code\bus.booking\Libs.Utils\obj\Debug\Libs.Utils.dll
-D:\Code\bus.booking\Libs.Utils\obj\Debug\Libs.Utils.pdb
-D:\Code\bus.booking\Libs.Utils\obj\Debug\Libs.Utils.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Utils\bin\Debug\Libs.Utils.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Utils\bin\Debug\Libs.Utils.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Utils\obj\Debug\Libs.Utils.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Utils\obj\Debug\Libs.Utils.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Utils\obj\Debug\Libs.Utils.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Utils\bin\Debug\Libs.Utils.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Utils\bin\Debug\Libs.Utils.pdb
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Utils\obj\Debug\Libs.Utils.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Utils\obj\Debug\Libs.Utils.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Utils\obj\Debug\Libs.Utils.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Utils\bin\Debug\Libs.Utils.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Utils\bin\Debug\Libs.Utils.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Utils\obj\Debug\Libs.Utils.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Utils\obj\Debug\Libs.Utils.pdb
-E:\Cadavan\Admin\04. Code\Libs.Utils\bin\Debug\Libs.Utils.dll
-E:\Cadavan\Admin\04. Code\Libs.Utils\bin\Debug\Libs.Utils.pdb
-E:\Cadavan\Admin\04. Code\Libs.Utils\obj\Debug\Libs.Utils.dll
-E:\Cadavan\Admin\04. Code\Libs.Utils\obj\Debug\Libs.Utils.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Utils\bin\Debug\Libs.Utils.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Utils\bin\Debug\Libs.Utils.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Utils\obj\Debug\Libs.Utils.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Utils\obj\Debug\Libs.Utils.pdb
+D:\TBH\Website\Code\Libs.Utils\bin\Debug\Libs.Utils.dll
+D:\TBH\Website\Code\Libs.Utils\bin\Debug\Libs.Utils.pdb
+D:\TBH\Website\Code\Libs.Utils\obj\Debug\Libs.Utils.dll
+D:\TBH\Website\Code\Libs.Utils\obj\Debug\Libs.Utils.pdb
+D:\TBH\Website\Code\Libs.Utils\obj\Debug\Libs.Utils.csprojResolveAssemblyReference.cache
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Utils\bin\Debug\Libs.Utils.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Utils\bin\Debug\Libs.Utils.pdb
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Utils\obj\Debug\Libs.Utils.csprojResolveAssemblyReference.cache
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Utils\obj\Debug\Libs.Utils.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Utils\obj\Debug\Libs.Utils.pdb
+E:\Cadavan.Admin\Libs.Utils\bin\Debug\Libs.Utils.dll
+E:\Cadavan.Admin\Libs.Utils\bin\Debug\Libs.Utils.pdb
+E:\Cadavan.Admin\Libs.Utils\obj\Debug\Libs.Utils.csprojResolveAssemblyReference.cache
+E:\Cadavan.Admin\Libs.Utils\obj\Debug\Libs.Utils.dll
+E:\Cadavan.Admin\Libs.Utils\obj\Debug\Libs.Utils.pdb

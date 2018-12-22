@@ -1,63 +1,178 @@
-D:\Code\bus.booking\News.Content\bin\Debug\News.Content.dll
-D:\Code\bus.booking\News.Content\bin\Debug\News.Content.pdb
-D:\Code\bus.booking\News.Content\bin\Debug\Libs.Db.dll
-D:\Code\bus.booking\News.Content\bin\Debug\Libs.Utils.dll
-D:\Code\bus.booking\News.Content\bin\Debug\Libs.Db.pdb
-D:\Code\bus.booking\News.Content\bin\Debug\Libs.Utils.pdb
-D:\Code\bus.booking\News.Content\obj\Debug\LIbs.Content.csprojResolveAssemblyReference.cache
-D:\Code\bus.booking\News.Content\obj\Debug\News.Content.dll
-D:\Code\bus.booking\News.Content\obj\Debug\News.Content.pdb
-D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Content.dll
-D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Content.pdb
-D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Db.dll
-D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Utils.dll
-D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Db.pdb
-D:\Code\bus.booking\Libs.Content\bin\Debug\Libs.Utils.pdb
-D:\Code\bus.booking\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
-D:\Code\bus.booking\Libs.Content\obj\Debug\Libs.Content.dll
-D:\Code\bus.booking\Libs.Content\obj\Debug\Libs.Content.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Content.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Content.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Utils.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\bin\Debug\Libs.Utils.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\obj\Debug\Libs.Content.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Content\obj\Debug\Libs.Content.pdb
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Content.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Content.pdb
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Utils.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\bin\Debug\Libs.Utils.pdb
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\obj\Debug\Libs.Content.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Content\obj\Debug\Libs.Content.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Content.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Content.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Utils.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Content\bin\Debug\Libs.Utils.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\04. Code\Libs.Content\obj\Debug\Libs.Content.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Content\obj\Debug\Libs.Content.pdb
-E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Content.dll
-E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Content.pdb
-E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Db.dll
-E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Utils.dll
-E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Db.pdb
-E:\Cadavan\Admin\04. Code\Libs.Content\bin\Debug\Libs.Utils.pdb
-E:\Cadavan\Admin\04. Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
-E:\Cadavan\Admin\04. Code\Libs.Content\obj\Debug\Libs.Content.dll
-E:\Cadavan\Admin\04. Code\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\#Work\CDYT\Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\#Work\CDYT\Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\#Work\CDYT\Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\#Work\CDYT\Code\Libs.Content\bin\Debug\MySql.Data.dll
+D:\#Work\CDYT\Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\#Work\CDYT\Code\Libs.Content\obj\Debug\ResolveAssemblyReference.cache
+D:\#Work\CDYT\Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\#Work\CDYT\Code\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\#Work\VTK.CMS\Libs.Content\bin\Debug\Libs.Content.dll
+D:\#Work\VTK.CMS\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\#Work\VTK.CMS\Libs.Content\bin\Debug\Libs.Db.dll
+D:\#Work\VTK.CMS\Libs.Content\bin\Debug\MySql.Data.dll
+D:\#Work\VTK.CMS\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\#Work\VTK.CMS\Libs.Content\obj\Debug\ResolveAssemblyReference.cache
+D:\#Work\VTK.CMS\Libs.Content\obj\Debug\Libs.Content.dll
+D:\#Work\VTK.CMS\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\#Work\CMS\Libs.Content\bin\Debug\Libs.Content.dll
+D:\#Work\CMS\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\#Work\CMS\Libs.Content\bin\Debug\Libs.Db.dll
+D:\#Work\CMS\Libs.Content\bin\Debug\MySql.Data.dll
+D:\#Work\CMS\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\#Work\CMS\Libs.Content\obj\Debug\ResolveAssemblyReference.cache
+D:\#Work\CMS\Libs.Content\obj\Debug\Libs.Content.dll
+D:\#Work\CMS\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\CMS\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\CMS\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\CMS\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\CMS\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\CMS\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\CMS\Libs.Content\obj\Debug\ResolveAssemblyReference.cache
+D:\HaLV\CMS\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\CMS\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\AIC\Projects\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.dll
+D:\AIC\Projects\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\AIC\Projects\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.dll
+D:\AIC\Projects\cms.aicvn.com\Libs.Content\bin\Debug\MySql.Data.dll
+D:\AIC\Projects\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\AIC\Projects\cms.aicvn.com\Libs.Content\obj\Debug\ResolveAssemblyReference.cache
+D:\AIC\Projects\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.dll
+D:\AIC\Projects\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.dll
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.dll
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Content\bin\Debug\MySql.Data.dll
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Content\obj\Debug\ResolveAssemblyReference.cache
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.dll
+D:\AIC\Projects\VS2010\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\songtre.tv\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Content\obj\Debug\ResolveAssemblyReference.cache
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\songtre.tv\Code\trunk\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Content\obj\Debug\ResolveAssemblyReference.cache
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\Projects\songtre.tv\Deploy\cms.aicvn.com\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\Projects\songtre.tv\Deploy\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\Projects\songtre.tv\Code.2012\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\Projects\cbgf.org\Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\Projects\cbgf.org\Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\Projects\cbgf.org\Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\cbgf.org\Code\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\cbgf.org\Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\cbgf.org\Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\cbgf.org\Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\Projects\cbgf.org\Code\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\Projects\phucsinhduong.com.vn\Code\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\Projects\tq company\Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\Projects\tq company\Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\Projects\tq company\Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\tq company\Code\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\tq company\Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\tq company\Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\tq company\Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\Projects\tq company\Code\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\Projects\thietkenoithattq.com\Code\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\Projects\thietkenoithattq.com\nhacuaban.vn\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Content\bin\Debug\MySql.Data.dll
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\HaLV\Projects\nhacuaban.vn\Code\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\2016\vietchess.vn\Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\2016\vietchess.vn\Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\2016\vietchess.vn\Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\2016\vietchess.vn\Code\Libs.Content\bin\Debug\MySql.Data.dll
+D:\2016\vietchess.vn\Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\2016\vietchess.vn\Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\2016\vietchess.vn\Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\2016\vietchess.vn\Code\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\2016\Mai Quynh Anh\Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Content\obj\Debug\Libs.Content.pdb
+D:\TBH\Website\Code\Libs.Content\bin\Debug\Libs.Content.dll
+D:\TBH\Website\Code\Libs.Content\bin\Debug\Libs.Content.pdb
+D:\TBH\Website\Code\Libs.Content\bin\Debug\Libs.Db.dll
+D:\TBH\Website\Code\Libs.Content\bin\Debug\Libs.Db.pdb
+D:\TBH\Website\Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+D:\TBH\Website\Code\Libs.Content\obj\Debug\Libs.Content.dll
+D:\TBH\Website\Code\Libs.Content\obj\Debug\Libs.Content.pdb
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Content\bin\Debug\Libs.Content.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Content\bin\Debug\Libs.Content.pdb
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Content\bin\Debug\Libs.Db.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Content\bin\Debug\Libs.Db.pdb
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Content\obj\Debug\Libs.Content.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Content\obj\Debug\Libs.Content.pdb
+E:\TBH.Code\Libs.Content\bin\Debug\Libs.Content.dll
+E:\TBH.Code\Libs.Content\bin\Debug\Libs.Content.pdb
+E:\TBH.Code\Libs.Content\bin\Debug\Libs.Db.dll
+E:\TBH.Code\Libs.Content\bin\Debug\Libs.Db.pdb
+E:\TBH.Code\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
+E:\TBH.Code\Libs.Content\obj\Debug\Libs.Content.dll
+E:\TBH.Code\Libs.Content\obj\Debug\Libs.Content.pdb
 E:\Cadavan.Admin\Libs.Content\bin\Debug\Libs.Content.dll
 E:\Cadavan.Admin\Libs.Content\bin\Debug\Libs.Content.pdb
 E:\Cadavan.Admin\Libs.Content\bin\Debug\Libs.Db.dll
-E:\Cadavan.Admin\Libs.Content\bin\Debug\Libs.Utils.dll
 E:\Cadavan.Admin\Libs.Content\bin\Debug\Libs.Db.pdb
-E:\Cadavan.Admin\Libs.Content\bin\Debug\Libs.Utils.pdb
 E:\Cadavan.Admin\Libs.Content\obj\Debug\Libs.Content.csprojResolveAssemblyReference.cache
 E:\Cadavan.Admin\Libs.Content\obj\Debug\Libs.Content.dll
 E:\Cadavan.Admin\Libs.Content\obj\Debug\Libs.Content.pdb

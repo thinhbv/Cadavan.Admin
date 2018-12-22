@@ -10,6 +10,7 @@ namespace Libs.Content
 	public class Orders
 	{
 		//Order_Detail
+		public int Id { get; set; }
 		public int OrderId { get; set; }
 		public string TicketId { get; set; }
 		public string CompanyName { get; set; }
@@ -50,34 +51,111 @@ namespace Libs.Content
 		public int Status { get; set; }
 		public DateTime CreateDate { get; set; }
 		public Orders()
-        {
-        }
+		{
+		}
 		~Orders()
-        {
+		{
 
-        }
+		}
 
-		public List<Orders> Get(int status, string code)
+		public List<Orders> Get(int status, string code, string startdate, string enddate)
 		{
 			DbHelper db = new DbHelper(Config.BookingConnectionStrings);
 			return db.GetListSP<Orders>("sp_Orders_Select_All"
+				, new SqlParameter("@top", "")
 				, new SqlParameter("@status", status)
-				, new SqlParameter("@aircode", code));
+				, new SqlParameter("@aircode", code)
+				, new SqlParameter("@startdate", startdate)
+				, new SqlParameter("@enddate", enddate));
 		}
 
-		public bool UpdateStatus(int orderid, int status)
+		public List<Orders> GetOrdersHistory(int status, string code, string startdate, string enddate)
+		{
+			DbHelper db = new DbHelper(Config.BookingConnectionStrings);
+			return db.GetListSP<Orders>("sp_Orders_History_Select_All"
+				, new SqlParameter("@top", "")
+				, new SqlParameter("@status", status)
+				, new SqlParameter("@aircode", code)
+				, new SqlParameter("@startdate", startdate)
+				, new SqlParameter("@enddate", enddate));
+		}
+
+		public List<Orders> GetById(int id)
+		{
+			DbHelper db = new DbHelper(Config.BookingConnectionStrings);
+			return db.GetListSP<Orders>("sp_Orders_Select_ByID"
+				, new SqlParameter("@id", id));
+		}
+
+		public List<Orders> GetHistoryById(int id)
+		{
+			DbHelper db = new DbHelper(Config.BookingConnectionStrings);
+			return db.GetListSP<Orders>("sp_Orders_History_Select_ByID"
+				, new SqlParameter("@id", id));
+		}
+
+		public bool UpdateStatus(List<Orders> lstOrders, int status)
 		{
 			SqlConnection mCon = null;
 			string sSQL;
+			SqlTransaction mTran = null;
 			SqlCommand sqlCmd;
 			DbHelper db = new DbHelper(Config.BookingConnectionStrings);
 			try
 			{
 				mCon = db.OpenConnection();
+				mTran = mCon.BeginTransaction();
 				sSQL = "UPDATE Orders SET Status =@Status WHERE Id=@Id";
-				sqlCmd = new SqlCommand(sSQL, mCon);
-				sqlCmd.Parameters.Add(new SqlParameter("@Id", orderid));
+				sqlCmd = new SqlCommand(sSQL, mCon, mTran);
+				sqlCmd.Parameters.Add(new SqlParameter("@Id", lstOrders[0].OrderId));
 				sqlCmd.Parameters.Add(new SqlParameter("@Status", status));
+				sqlCmd.ExecuteNonQuery();
+
+				if (status == 2 || status == 3)
+				{
+					CopyToOrdersHistory(lstOrders[0].OrderId, mTran, mCon);
+					Order_Detail detail = new Order_Detail();
+					for (int i = 0; i < lstOrders.Count; i++)
+					{
+						detail.CopyToOrderDetailHistory(lstOrders[i].Id, mTran, mCon);
+					}
+					Customers cust = new Customers();
+					List<Customers> lstCust = cust.GetByOrderId(lstOrders[0].OrderId);
+					for (int i = 0; i < lstCust.Count; i++)
+					{
+						cust.CopyToCustomerHistory(lstCust[i].Id, mTran, mCon);
+					}
+				}
+				
+				mTran.Commit();
+
+				return true;
+			}
+			catch (Exception ex)
+			{
+				if (mTran != null)
+				{
+					mTran.Rollback();
+				}
+				throw ex;
+			}
+		}
+
+		public bool CopyToOrdersHistory(int orderid, SqlTransaction mTran, SqlConnection mCon)
+		{
+			string sSQL;
+			SqlCommand sqlCmd;
+			try
+			{
+				//Copy data to history table
+				sSQL = "INSERT Orders_History SELECT * FROM Orders WHERE Id=@Id";
+				sqlCmd = new SqlCommand(sSQL, mCon, mTran);
+				sqlCmd.Parameters.Add(new SqlParameter("@Id", orderid));
+				sqlCmd.ExecuteNonQuery();
+				//Delete data completed
+				sSQL = "DELETE Orders WHERE Id=@Id";
+				sqlCmd = new SqlCommand(sSQL, mCon, mTran);
+				sqlCmd.Parameters.Add(new SqlParameter("@Id", orderid));
 				sqlCmd.ExecuteNonQuery();
 				return true;
 			}

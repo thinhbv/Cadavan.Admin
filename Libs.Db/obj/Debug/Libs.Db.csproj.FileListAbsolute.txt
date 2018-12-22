@@ -85,32 +85,27 @@ D:\2016\vietchess.vn\Code\Libs.Db\bin\Debug\Libs.Db.pdb
 D:\2016\vietchess.vn\Code\Libs.Db\obj\Debug\Libs.Db.dll
 D:\2016\vietchess.vn\Code\Libs.Db\obj\Debug\Libs.Db.pdb
 D:\2016\vietchess.vn\Code\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
-C:\Code\bus.booking\Libs.Db\bin\Debug\Libs.Db.dll
-C:\Code\bus.booking\Libs.Db\bin\Debug\Libs.Db.pdb
-C:\Code\bus.booking\Libs.Db\obj\Debug\Libs.Db.dll
-C:\Code\bus.booking\Libs.Db\obj\Debug\Libs.Db.pdb
-C:\Code\bus.booking\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
-D:\Code\bus.booking\Libs.Db\bin\Debug\Libs.Db.dll
-D:\Code\bus.booking\Libs.Db\bin\Debug\Libs.Db.pdb
-D:\Code\bus.booking\Libs.Db\obj\Debug\Libs.Db.dll
-D:\Code\bus.booking\Libs.Db\obj\Debug\Libs.Db.pdb
-D:\Code\bus.booking\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Db\bin\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Db\bin\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Db\obj\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Db\obj\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Db\bin\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Db\bin\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Db\obj\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Db\obj\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Db\bin\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Db\bin\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Db\obj\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Db\obj\Debug\Libs.Db.pdb
-E:\Cadavan\Admin\04. Code\Libs.Db\bin\Debug\Libs.Db.dll
-E:\Cadavan\Admin\04. Code\Libs.Db\bin\Debug\Libs.Db.pdb
-E:\Cadavan\Admin\04. Code\Libs.Db\obj\Debug\Libs.Db.dll
-E:\Cadavan\Admin\04. Code\Libs.Db\obj\Debug\Libs.Db.pdb
-E:\Cadavan\Admin\04. Code\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
+D:\2016\Mai Quynh Anh\Code\Libs.Db\bin\Debug\Libs.Db.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Db\bin\Debug\Libs.Db.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Db\obj\Debug\Libs.Db.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Db\obj\Debug\Libs.Db.pdb
+D:\TBH\Website\Code\Libs.Db\bin\Debug\Libs.Db.dll
+D:\TBH\Website\Code\Libs.Db\bin\Debug\Libs.Db.pdb
+D:\TBH\Website\Code\Libs.Db\obj\Debug\Libs.Db.dll
+D:\TBH\Website\Code\Libs.Db\obj\Debug\Libs.Db.pdb
+D:\TBH\Website\Code\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Db\bin\Debug\Libs.Db.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Db\bin\Debug\Libs.Db.pdb
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Db\obj\Debug\Libs.Db.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Db\obj\Debug\Libs.Db.pdb
+E:\TBH.Code\Libs.Db\bin\Debug\Libs.Db.dll
+E:\TBH.Code\Libs.Db\bin\Debug\Libs.Db.pdb
+E:\TBH.Code\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
+E:\TBH.Code\Libs.Db\obj\Debug\Libs.Db.dll
+E:\TBH.Code\Libs.Db\obj\Debug\Libs.Db.pdb
+E:\Cadavan.Admin\Libs.Db\bin\Debug\Libs.Db.dll
+E:\Cadavan.Admin\Libs.Db\bin\Debug\Libs.Db.pdb
+E:\Cadavan.Admin\Libs.Db\obj\Debug\Libs.Db.csprojResolveAssemblyReference.cache
+E:\Cadavan.Admin\Libs.Db\obj\Debug\Libs.Db.dll
+E:\Cadavan.Admin\Libs.Db\obj\Debug\Libs.Db.pdb

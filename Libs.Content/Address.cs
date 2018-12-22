@@ -88,4 +88,21 @@ namespace Libs.Content
 		public string Discount { get; set; }
 		public double TotalPrice { get; set; }
 	}
+
+	public class OrderMonth
+	{
+		public int Year { get; set; }
+		public int Month { get; set; }
+		public string CompanyName { get; set; }
+		public int TotalCnt { get; set; }
+		public OrderMonth()
+		{
+
+		}
+		public List<OrderMonth> Get()
+		{
+			DbHelper db = new DbHelper(Config.BookingConnectionStrings);
+			return db.GetListSP<OrderMonth>("sp_Orders_Month_Summary");
+		}
+	}
 }

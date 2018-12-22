@@ -1,0 +1,7 @@
+D:\2016\Mai Quynh Anh\Code\Libs.Content\obj\Release\Libs.Content.csprojResolveAssemblyReference.cache
+D:\2016\Mai Quynh Anh\Code\Libs.Content\bin\Release\Libs.Content.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Content\bin\Release\Libs.Content.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Content\bin\Release\Libs.Db.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Content\bin\Release\Libs.Db.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Content\obj\Release\Libs.Content.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Content\obj\Release\Libs.Content.pdb

@@ -142,45 +142,38 @@ D:\2016\vietchess.vn\Code\Libs.Security\bin\Debug\Libs.Db.pdb
 D:\2016\vietchess.vn\Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
 D:\2016\vietchess.vn\Code\Libs.Security\obj\Debug\Libs.Security.dll
 D:\2016\vietchess.vn\Code\Libs.Security\obj\Debug\Libs.Security.pdb
-C:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Security.dll
-C:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Security.pdb
-C:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Db.dll
-C:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Db.pdb
-C:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
-C:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.dll
-C:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.pdb
-D:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Security.dll
-D:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Security.pdb
-D:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Db.dll
-D:\Code\bus.booking\Libs.Security\bin\Debug\Libs.Db.pdb
-D:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
-D:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.dll
-D:\Code\bus.booking\Libs.Security\obj\Debug\Libs.Security.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\bin\Debug\Libs.Security.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\bin\Debug\Libs.Security.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\bin\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\bin\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\obj\Debug\Libs.Security.dll
-D:\02. Projects\02. Cadavan\bus.booking\Libs.Security\obj\Debug\Libs.Security.pdb
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\bin\Debug\Libs.Security.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\bin\Debug\Libs.Security.pdb
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\bin\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\bin\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\obj\Debug\Libs.Security.dll
-D:\02. Projects\02. Cadavan\cadavan.vn\Libs.Security\obj\Debug\Libs.Security.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Security\bin\Debug\Libs.Security.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Security\bin\Debug\Libs.Security.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Security\bin\Debug\Libs.Db.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Security\bin\Debug\Libs.Db.pdb
-D:\02. Projects\02. Cadavan\04. Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
-D:\02. Projects\02. Cadavan\04. Code\Libs.Security\obj\Debug\Libs.Security.dll
-D:\02. Projects\02. Cadavan\04. Code\Libs.Security\obj\Debug\Libs.Security.pdb
-E:\Cadavan\Admin\04. Code\Libs.Security\bin\Debug\Libs.Security.dll
-E:\Cadavan\Admin\04. Code\Libs.Security\bin\Debug\Libs.Security.pdb
-E:\Cadavan\Admin\04. Code\Libs.Security\bin\Debug\Libs.Db.dll
-E:\Cadavan\Admin\04. Code\Libs.Security\bin\Debug\Libs.Db.pdb
-E:\Cadavan\Admin\04. Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
-E:\Cadavan\Admin\04. Code\Libs.Security\obj\Debug\Libs.Security.dll
-E:\Cadavan\Admin\04. Code\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\2016\Mai Quynh Anh\Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\2016\Mai Quynh Anh\Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\2016\Mai Quynh Anh\Code\Libs.Security\obj\Debug\Libs.Security.pdb
+D:\TBH\Website\Code\Libs.Security\bin\Debug\Libs.Security.dll
+D:\TBH\Website\Code\Libs.Security\bin\Debug\Libs.Security.pdb
+D:\TBH\Website\Code\Libs.Security\bin\Debug\Libs.Db.dll
+D:\TBH\Website\Code\Libs.Security\bin\Debug\Libs.Db.pdb
+D:\TBH\Website\Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+D:\TBH\Website\Code\Libs.Security\obj\Debug\Libs.Security.dll
+D:\TBH\Website\Code\Libs.Security\obj\Debug\Libs.Security.pdb
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Security\bin\Debug\Libs.Security.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Security\bin\Debug\Libs.Security.pdb
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Security\bin\Debug\Libs.Db.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Security\bin\Debug\Libs.Db.pdb
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Security\obj\Debug\Libs.Security.dll
+C:\Users\ThinhBV\Downloads\TBH\TBH.Code\Libs.Security\obj\Debug\Libs.Security.pdb
+E:\TBH.Code\Libs.Security\bin\Debug\Libs.Security.dll
+E:\TBH.Code\Libs.Security\bin\Debug\Libs.Security.pdb
+E:\TBH.Code\Libs.Security\bin\Debug\Libs.Db.dll
+E:\TBH.Code\Libs.Security\bin\Debug\Libs.Db.pdb
+E:\TBH.Code\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+E:\TBH.Code\Libs.Security\obj\Debug\Libs.Security.dll
+E:\TBH.Code\Libs.Security\obj\Debug\Libs.Security.pdb
+E:\Cadavan.Admin\Libs.Security\bin\Debug\Libs.Security.dll
+E:\Cadavan.Admin\Libs.Security\bin\Debug\Libs.Security.pdb
+E:\Cadavan.Admin\Libs.Security\bin\Debug\Libs.Db.dll
+E:\Cadavan.Admin\Libs.Security\bin\Debug\Libs.Db.pdb
+E:\Cadavan.Admin\Libs.Security\obj\Debug\Libs.Security.csprojResolveAssemblyReference.cache
+E:\Cadavan.Admin\Libs.Security\obj\Debug\Libs.Security.dll
+E:\Cadavan.Admin\Libs.Security\obj\Debug\Libs.Security.pdb
