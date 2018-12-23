@@ -3,36 +3,34 @@
 <%@ Import Namespace="Libs.Content" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 	<!-- Bootstrap core CSS -->
-	<link href="../resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
 	<!-- Font Awesome-->
-	<link href="../resources/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="resources/css/font-awesome.min.css" rel="stylesheet" />
 
 	<!-- Pace -->
-	<link href="../resources/css/pace.css" rel="stylesheet" />
+	<link href="resources/css/pace.css" rel="stylesheet" />
 
 	<!-- Datatable -->
-	<link href="../resources/css/jquery.dataTables_themeroller.css" rel="stylesheet" />
+	<link href="resources/css/jquery.dataTables_themeroller.css" rel="stylesheet" />
 
 	<!-- Endless -->
-	<link href="../resources/css/endless.min.css" rel="stylesheet" />
-	<link href="../resources/css/endless-skin.css" rel="stylesheet" />
+	<link href="resources/css/endless.min.css" rel="stylesheet" />
+	<link href="resources/css/endless-skin.css" rel="stylesheet" />
 
 	<!-- Chosen -->
-	<link href="../resources/css/chosen/chosen.min.css" rel="stylesheet" />
+	<link href="resources/css/chosen/chosen.min.css" rel="stylesheet" />
 
 	<!-- Dropzone -->
-	<link href='../resources/css/dropzone/dropzone.css' rel="stylesheet" />
+	<link href='resources/css/dropzone/dropzone.css' rel="stylesheet" />
 
 	<!-- Datepicker -->
-	<link href="../resources/css/datepicker.css" rel="stylesheet" />
+	<link href="resources/css/datepicker.css" rel="stylesheet" />
 
 	<!-- Timepicker -->
-	<link href="../resources/css/bootstrap-timepicker.css" rel="stylesheet" />
+	<link href="resources/css/bootstrap-timepicker.css" rel="stylesheet" />
 	<!-- Jquery -->
-	<script src="../resources/js/jquery-1.10.2.min.js"></script>
-	<script src="../resources/js/jquery-ui.js"></script>
-	<script src="../resources/js/datepicker-vi.js"></script>
+	<script src="resources/js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
 
 		$(function () {

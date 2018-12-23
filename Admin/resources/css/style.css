@@ -145,7 +145,7 @@ a#view-site
 #userinfo a
 {
     padding: 4px 10px 4px 25px;
-    background: url(../../resources/images/icons/user-silhouette.png) 5px 4px no-repeat;
+    background: url(/admin/resources/images/icons/user-silhouette.png) 5px 4px no-repeat;
 }
 /* FOOTER
 ------------------------------------------------------------------------- */
@@ -210,7 +210,7 @@ nav ul#usermenu
 }
 nav ul#usermenu a.inbox
 {
-    background-image: url(../../resources/images/icons/mail.png);
+    background-image: url(resources/images/icons/mail.png);
     background-position: 8px center;
     background-repeat: no-repeat;
     padding-left: 28px;
@@ -309,7 +309,7 @@ article .links
     position: relative;
     padding: 0;
     border: 1px solid #bbb;
-    background: #fff url(../../resources/images/box-header.gif) 0 0 repeat-x;
+    background: #fff url(resources/images/box-header.gif) 0 0 repeat-x;
 }
 .box h2
 {
@@ -320,7 +320,7 @@ article .links
     font-weight: bold;
     color: #555;
     text-shadow: 1px 1px 0 #fff;
-    background: url(../../resources/images/icons/bullet_go.png) 10px center no-repeat;
+    background: url(resources/images/icons/bullet_go.png) 10px center no-repeat;
 }
 .box section
 {
@@ -336,11 +336,11 @@ article .links
 }
 .box.info h2
 {
-    background-image: url(../../resources/images/icons/information-octagon.png);
+    background-image: url(resources/images/icons/information-octagon.png);
 }
 .box.menu h2
 {
-    background-image: url(../../resources/images/icons/bookmarks.png);
+    background-image: url(resources/images/icons/bookmarks.png);
 }
 .search
 {
@@ -369,7 +369,7 @@ article .links
 }
 #login h2
 {
-    background-image: url(../../resources/images/icons/key.png);
+    background-image: url(resources/images/icons/key.png);
 }
 #login section
 {
@@ -466,7 +466,7 @@ section.icons
     padding: 3px 5px 3px 18px;
     color: #333;
     display: block;
-    background: url(../../resources/images/icons/bullet_yellow.png) 0 center no-repeat;
+    background: url(resources/images/icons/bullet_yellow.png) 0 center no-repeat;
 }
 .box ul li a:hover
 {
@@ -615,22 +615,22 @@ div.msg
 div.success
 {
     border: 1px solid #6cd858;
-    background: #e3ffde url(../../resources/images/icons/tick.png) 10px 13px no-repeat;
+    background: #e3ffde url(resources/images/icons/tick.png) 10px 13px no-repeat;
 }
 div.error
 {
     border: 1px solid #ffa2aa;
-    background: #fae8e8 url(../../resources/images/icons/exclamation-red.png) 10px 13px no-repeat;
+    background: #fae8e8 url(resources/images/icons/exclamation-red.png) 10px 13px no-repeat;
 }
 div.warning
 {
     border: 1px solid #d6d61f;
-    background: #ffffd3 url(../../resources/images/icons/exclamation.png) 10px 13px no-repeat;
+    background: #ffffd3 url(resources/images/icons/exclamation.png) 10px 13px no-repeat;
 }
 div.information
 {
     border: 1px solid #b4dbe8;
-    background: #e3f2f7 url(../../resources/images/icons/information-balloon.png) 10px 13px no-repeat;
+    background: #e3f2f7 url(resources/images/icons/information-balloon.png) 10px 13px no-repeat;
 }
 /* TABLES
 ------------------------------------------------------------------------- */
@@ -768,7 +768,7 @@ form legend
     text-shadow: 1px 1px 1px #fff;
     font-weight: bold;
     padding: 0 5px 0 30px;
-    background: url(../../resources/images/icons/block.png) 5px 0 no-repeat;
+    background: url(resources/images/icons/block.png) 5px 0 no-repeat;
     line-height: 18px;
     margin: 10px 0;
 }
@@ -846,7 +846,7 @@ form input[type="text"], form input[type="email"], form input[type="password"], 
 {
     border: 1px solid #ccc;
     padding: 4px 5px;
-    background: #fff url(../../resources/images/input-bg.gif) 0 0 repeat-x;
+    background: #fff url(resources/images/input-bg.gif) 0 0 repeat-x;
 }
 form select
 {
@@ -1200,7 +1200,7 @@ div.msg
 }
 a#view-site, .search
 {
-    behavior: url(../../resources/js//PIE.htc);
+    behavior: url(resources/js//PIE.htc);
 }
 /* you can enable PIE.htc for more selectors below, but it will slow down IE *//* header#top,
 nav#topmenu,
@@ -1212,7 +1212,7 @@ article h1,
 .button,
 .tabs a,
 .accordion h3 {
-behavior: url(../../resources/js//PIE.htc);
+behavior: url(resources/js//PIE.htc);
 } */
 
 /*Modal Popup*/

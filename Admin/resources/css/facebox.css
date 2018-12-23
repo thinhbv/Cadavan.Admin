@@ -1,17 +1,17 @@
 #facebox .b {
-	background:url(/resources/images/facebox/b.png);
+	background:url(/admin/resources/images/facebox/b.png);
 }
 #facebox .tl {
-	background:url(/resources/images/facebox/tl.png);
+	background:url(/admin/resources/images/facebox/tl.png);
 }
 #facebox .tr {
-	background:url(/resources/images/facebox/tr.png);
+	background:url(/admin/resources/images/facebox/tr.png);
 }
 #facebox .bl {
-	background:url(/resources/images/facebox/bl.png);
+	background:url(/admin/resources/images/facebox/bl.png);
 }
 #facebox .br {
-	background:url(/resources/images/facebox/br.png);
+	background:url(/admin/resources/images/facebox/br.png);
 }
 #facebox {
 	position: absolute;

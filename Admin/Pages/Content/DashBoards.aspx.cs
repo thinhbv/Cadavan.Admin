@@ -18,7 +18,7 @@ public partial class Pages_Content_DashBoards : System.Web.UI.Page
 		for (int i = 5; i > -1; i--)
 		{
 			DateTime tmpDate = DateTime.Now.AddMonths(-i);
-			cate += "'Tháng " + tmpDate.Month.ToString() + "/" + tmpDate.Year.ToString() + "',";
+			cate += "'" + tmpDate.Month.ToString() + "/" + tmpDate.Year.ToString() + "',";
 			lstMonth.Add(tmpDate.Month.ToString() + "/" + tmpDate.Year.ToString());
 		}
 		cate = cate.Substring(0, cate.Length - 1);
@@ -69,7 +69,7 @@ public partial class Pages_Content_DashBoards : System.Web.UI.Page
 		Highcharts.chart('container', {
 			chart: {
 				type: 'column',
-				width: 1150
+				width: 1100
 			},
 			title: {
 				text: 'Biểu đồ vé các hãng hàng không theo tháng'

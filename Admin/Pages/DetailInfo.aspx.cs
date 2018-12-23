@@ -19,7 +19,7 @@ public partial class Pages_DetailInfo : System.Web.UI.Page
 		int id = int.Parse(Request.QueryString["id"].ToString());
 		int status = int.Parse(Request.QueryString["status"].ToString());
 		List<Orders> lstOrder;
-		if (Request.QueryString["ishis"].ToString() == "1")
+		if (Request.QueryString["ishis"] != null && Request.QueryString["ishis"].ToString() == "1")
 		{
 			lstOrder = new Orders().GetHistoryById(id);
 		}

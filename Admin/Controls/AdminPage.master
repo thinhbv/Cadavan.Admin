@@ -19,22 +19,22 @@
     <link rel="stylesheet" type="text/css" href="../resources/css/facebox.css" />
     <%--<link rel="stylesheet" type="text/css" href="../resources/css/smoothness/jquery-ui-1.8.8.custom.css" />--%>
     <!--[if lte IE 8]>
-    <script type="text/javascript" src="../resources/js/html5.js"></script>
-    <script type="text/javascript" src="../resources/js/selectivizr.js"></script>
-    <script type="text/javascript" src="../resources/js/excanvas.min.js"></script>
+    <script type="text/javascript" src="resources/js/html5.js"></script>
+    <script type="text/javascript" src="resources/js/selectivizr.js"></script>
+    <script type="text/javascript" src="resources/js/excanvas.min.js"></script>
     <![endif]-->
 
-    <script type="text/javascript" src="../resources/js/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript" src="../resources/js/jquery-ui-1.8.8.custom.min.js"></script>
-    <script type="text/javascript" src="../resources/js/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="../resources/js/jquery.uniform.min.js"></script>
-    <script type="text/javascript" src="../resources/js/jquery.wysiwyg.js"></script>
-    <script type="text/javascript" src="../resources/js/superfish.js"></script>
-    <script type="text/javascript" src="../resources/js/cufon-yui.js"></script>
-    <script type="text/javascript" src="../resources/js/Delicious_500.font.js"></script>
-    <script type="text/javascript" src="../resources/js/jquery.flot.min.js"></script>
-    <script type="text/javascript" src="../resources/js/custom.js"></script>
-    <script type="text/javascript" src="../resources/js/facebox.js"></script>
+    <script type="text/javascript" src="resources/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="resources/js/jquery-ui-1.8.8.custom.min.js"></script>
+    <script type="text/javascript" src="resources/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="resources/js/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="resources/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="resources/js/superfish.js"></script>
+    <script type="text/javascript" src="resources/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="resources/js/Delicious_500.font.js"></script>
+    <script type="text/javascript" src="resources/js/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="resources/js/custom.js"></script>
+    <script type="text/javascript" src="resources/js/facebox.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">

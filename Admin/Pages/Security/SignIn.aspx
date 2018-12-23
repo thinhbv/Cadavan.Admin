@@ -28,7 +28,7 @@
 	        <div class="container_12 clearfix">
 		        <div id="logo" class="grid_12">
 			        <!-- replace with your website title or logo -->
-			        <a id="site-title" href="#"><span>ThaiBinh</span>Hospital</a>
+			        <a id="site-title" href="#"><span>Cadavan</span></a>
 			        <a id="view-site" href="#">View Site</a>
 		        </div>
 	        </div>

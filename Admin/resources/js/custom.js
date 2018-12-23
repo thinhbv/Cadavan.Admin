@@ -1,5 +1,5 @@
 /* image url */
-var IMAGE_URL = '/resources/images/';
+var IMAGE_URL = '/admin/resources/images/';
 
 jQuery.noConflict();
 
